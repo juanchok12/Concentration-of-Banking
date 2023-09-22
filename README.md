@@ -4,7 +4,7 @@
 ## Goal
 Quantifying the concentration/decentralization/equilibrium of banking as a property of monopoly capitalism from 2003-2023 by seeing trends in consolidated assets of large commercial banks.
 
-Research Questions:
+Research questions:
 * What is the current market share of banks manifested through the consolidated assets of banks in the U.S.?
 
 * What is the historical (2003-2023) trend of monopolization/dispersion/equilibrium of banking in the U.S.?
