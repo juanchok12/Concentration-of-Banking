@@ -12,16 +12,16 @@ Concentration of banking, as a property of monopoly capitalism, is the tendency 
 
 **a) From web scraping HTML tables to CSV files to creating pivot data frames using Python**: 
    
-    1) Webscraping: I webscraped the Federal Reserve data on large commercial data links and downloaded tables into CSV files. 
+    1) Webscraping: Webscraped the Federal Reserve data on large commercial bnaks by identifying the HTML tables and downloaded this tables into CSV files. 
     
     2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names or for banks that had merged together in the past).
     
-    3) Pivot: Combined the different data points release per quarter into a master list of all data points using Python. From the master database, I then further pivoted other dataframes according to the needs of data visualization.
+    3) Pivot: Combined the different data points per quarter into a master list of all data quarters using Python. From the master database, I then further pivoted other dataframes according to the needs of data visualization.
 
 ![HTML to CSV to DF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a4d7549b-a649-4b3c-b6da-bbbd2312dd91)
 
 
-**b) Animated pie chart**: I used the [SJ Visualizer]([url](https://www.sjdataviz.com/software)) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks.
+**b) Animated pie chart**: I used the [SJ Visualizer]([url](https://www.sjdataviz.com/software) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks.
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417-e0b7-4aa0-8b78-53cbbcda23b8
 
