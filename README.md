@@ -14,7 +14,7 @@ Concentration of banking, as a property of monopoly capitalism, is the tendency 
    
     1) Webscraping: I webscraped the Federal Reserve data on large commercial data links and downloaded tables into CSV files. 
     
-    2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names).
+    2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names or for banks that had merged together in the past).
     
     3) Pivot: Combined the different data points release per quarter into a master list of all data points using Python. From the master database, I then further pivoted other dataframes according to the needs of data visualization.
 
