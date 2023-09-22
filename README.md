@@ -11,6 +11,11 @@ Concentration of banking, as a property of monopoly capitalism, is the tendency 
 
 ## Methodology
 
+a) From web scraping HTML tables to CSV files to creating pivot data frames using Python.
+
+![HTML to CSV to DF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a4d7549b-a649-4b3c-b6da-bbbd2312dd91)
+
+
 b) Animated pie chart: I used the [SJ Visualizer]([url](https://www.sjdataviz.com/software)) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks.
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/9bc39d9c-1dc6-4b40-abf3-5860c0f3f3b8
