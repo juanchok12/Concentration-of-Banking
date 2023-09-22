@@ -3,6 +3,7 @@
 ![IMG_6833](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/9f904835-0aa4-4ebd-a2cd-05b4e66056ed)
 
 
+
 ## Goal
 Quantifying the concentration/decentralization/equilibrium of banking as a property of monopoly capitalism from 2003-2023 by seeing trends in consolidated assets of large commercial banks.
 
