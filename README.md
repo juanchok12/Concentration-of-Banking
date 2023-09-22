@@ -1,7 +1,5 @@
 # Concentration-of-Banking
 
-
-
 ## Goal
 Quantifying the concentration/decentralization/equilibrium of banking as a property of monopoly capitalism from 2003-2023 by seeing trends in consolidated assets of large commercial banks.
 
@@ -11,7 +9,10 @@ Concentration of banking, as a property of monopoly capitalism, is the tendency 
 
 ## Methodology
 
-a) From web scraping HTML tables to CSV files to creating pivot data frames using Python.
+a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
+    1) Webscraping: I webscraped the Federal Reserve data on large commercial data links and downloaded tables into CSV files. 
+    2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names).
+    3) Pivot: Combined the different data points release per quarter into a master list of all data points using Python. From the master database, I then further pivoted other dataframes according to the needs of data visualization.
 
 ![HTML to CSV to DF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a4d7549b-a649-4b3c-b6da-bbbd2312dd91)
 
@@ -25,5 +26,8 @@ c) Interactive line plots: I used Plotly's line plots to observe the two decate 
 
 ![Two Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/16e11ec1-5cc3-40c4-8e8b-1f6cece471b7)
 
+d) Interactive treemap: Used Plotly to create an interactive treemap with parent to daughter sub-category relationships.
+![Treemap Video GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/98bddfa5-97f8-460e-afce-76c635a37a73)
 
+e) Statistical inferential analysis
 
