@@ -17,6 +17,7 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/9bc39d9c
 
 c) Interactive line plots: I used Plotly's line plots to observe the two decate trend in the accumulation of consolidated assets between the biggest 7 banks in the magnitude of their dollar value. I also grouped the 7 Big into a group and the rest of the banks to compare their consolidated assets (second GIF)
 ![Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ccdb13ed-5eed-4155-8c9f-06b2ef443bca)
+![Two Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/16e11ec1-5cc3-40c4-8e8b-1f6cece471b7)
 
-![Two Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/64a23872-9769-4da7-9b00-ba984fa64c08)
+
 
