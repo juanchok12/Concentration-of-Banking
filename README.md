@@ -21,11 +21,11 @@ Concentration of banking, as a property of monopoly capitalism, is the tendency 
 ![HTML to CSV to DF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a4d7549b-a649-4b3c-b6da-bbbd2312dd91)
 
 
-**b) Animated pie chart**: I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks.
+**b) Animated pie chart**: I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (based on consolidated assets).
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417-e0b7-4aa0-8b78-53cbbcda23b8
 
-**c) Interactive line plots**: I used Plotly's line plots to observe the two decate trend in the accumulation of consolidated assets between the biggest 7 banks in the magnitude of their dollar value. I also grouped the 7 biggest banks into a group and the rest of the banks to compare their consolidated assets (second GIF).
+**c) Interactive line plots**: I used Plotly's line plots to observe the two decade trend in the accumulation of consolidated assets between the biggest 7 banks in the magnitude of their dollar value. I also grouped all the large commercial banks into one group and the 7 biggest banks into another group to compare their consolidated assets over time (second GIF).
 ![Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ccdb13ed-5eed-4155-8c9f-06b2ef443bca)
 
 ![Two Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/16e11ec1-5cc3-40c4-8e8b-1f6cece471b7)
@@ -33,7 +33,7 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417
 **d) Interactive treemap**: Used Plotly to create an interactive treemap with parent to daughter sub-category relationships.
 ![Treemap Video GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/98bddfa5-97f8-460e-afce-76c635a37a73)
 
-e) Statistical inferential analysis: developed a linear regression model on the changes in the amount of consolidated assets held by two banks groups 1) the 7 biggest banks 2) the 4 biggest banks. This allowed to develop a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
+e) **Statistical inferential analysis-Linear Regression Model**: developed a linear regression model on the changes in the amount of consolidated assets held by two bank groups 1) the 7 biggest banks 2) the 4 biggest banks. This allowed to develop a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
 
 ![linear_reg_big7](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7a6332d0-b647-40b6-b2fb-2b8c6780e3ab)
 
