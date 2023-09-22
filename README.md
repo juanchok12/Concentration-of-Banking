@@ -19,7 +19,7 @@ Given a trend in the increase in the amount of consolidated assets by large comm
 
 **a) From web scraping HTML tables to CSV files to creating pivot data frames using Python**: 
    
-    1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables and downloaded this tables into CSV files. 
+    1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables and downloaded these tables into CSV files. 
     
     2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names or for banks that had merged together in the past).
     
