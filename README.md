@@ -12,6 +12,8 @@ Research Questions:
 ## Description 
 Concentration of banking, as a property of monopoly capitalism, is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield anormous power over production (or under-production), investment (or lack of it), and commerce (or its stultification). It subordinates the separated regional economies of a society into a singularity. 
 
+## Hypothesis
+Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the biggest 7 banks) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several manifestations of this monopolistic tendency). 
 
 ## Methodology
 
