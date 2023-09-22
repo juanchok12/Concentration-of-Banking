@@ -40,7 +40,7 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417
 **d) Interactive treemap**: Used Plotly to create an interactive treemap with parent to daughter sub-category relationships.
 ![Treemap Video GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/98bddfa5-97f8-460e-afce-76c635a37a73)
 
-e) **Statistical inferential analysis-Linear Regression Model**: developed a linear regression model on the changes in the amount of consolidated assets held by two bank groups 1) the 7 biggest banks 2) the 4 biggest banks. This allowed to develop a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
+e) **Statistical inferential analysis-linear regression model**: developed a linear regression model on the changes in the amount of consolidated assets held by two bank groups 1) the 7 biggest banks 2) the 4 biggest banks. This allowed to develop a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
 
 ![linear_reg_big7](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7a6332d0-b647-40b6-b2fb-2b8c6780e3ab)
 
