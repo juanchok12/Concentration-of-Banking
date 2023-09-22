@@ -36,6 +36,7 @@ e) Statistical inferential analysis: developed a linear regression model on the 
 
 ![linear_reg_big7](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7a6332d0-b647-40b6-b2fb-2b8c6780e3ab)
 
+
 ![linear_reg_4big](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7c43a1c5-1242-4aba-9da7-eec564b0a738)
 
 
