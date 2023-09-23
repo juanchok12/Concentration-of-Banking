@@ -8,7 +8,7 @@ import json
 
 def main(duration = 1.0, fps = 60, font_color=(225,225,225), background=(0,0,0)):
     number_of_frames = duration * fps * 60
-    df = DataHandler.DataHandler(excel_file="C:/Users/16193/My Drive/Back Up/The Internationalist Group/Political Economy/Lenin's Imperialism/Bank Acquisitions/Animated Pie Chart/market_share_prc_cons_assets_updated_9-8-2023-1.xlsx", number_of_frames=number_of_frames).df
+    df = DataHandler.DataHandler(excel_file="Your/Data/Directory/Here", number_of_frames=number_of_frames).df
 
     canvas = Canvas.canvas(bg=background)
     
