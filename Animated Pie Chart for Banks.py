@@ -24,7 +24,7 @@ def main(duration = 1.0, fps = 60, font_color=(225,225,225), background=(0,0,0))
         "Other Banks": (255, 229, 204), # Light Orange
     }
     # load colors
-    with open("C:/Users/16193/My Drive/Back Up/The Internationalist Group/Political Economy/Lenin's Imperialism/Bank Acquisitions/Animated Pie Chart/colors.json") as f:
+    with open("Your/Data/Directory/Here") as f:
         colors = json.load(f)
     
     
