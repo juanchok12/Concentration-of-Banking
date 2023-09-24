@@ -19,11 +19,11 @@ Given a trend in the increase in the amount of consolidated assets by large comm
 
 **a) From web scraping HTML tables to CSV files to creating pivot data frames using Python**: 
    
-    1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables and downloaded these tables into CSV files. 
+   1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables and downloaded these tables into CSV files. 
     
-    2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names or for banks that had merged together in the past).
+   2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names or for banks that had merged together in the past).
     
-    3) Pivot: Combined the different data points per quarter into a master list of all data quarters using Python. From the master database, I then further pivoted other dataframes according to the needs of data visualization.
+   3) Pivot: Combined the different data points per quarter into a master list of all data quarters using Python. From the master database, I then further pivoted other dataframes according to the needs of data visualization.
 
 ![HTML to CSV to DF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a4d7549b-a649-4b3c-b6da-bbbd2312dd91)
 
