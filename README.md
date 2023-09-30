@@ -10,10 +10,10 @@ Research questions:
 * What is the historical (2003-2023) trend of monopolization/dispersion/equilibrium of banking in the U.S.?
 
 ## Description 
-Concentration of banking, as a property of monopoly capitalism, is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield anormous power over production (or under-production), investment (or lack of it), and commerce (or its stultification). It subordinates the separated regional economies of a society into a singularity. 
+Concentration of banking is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield anormous power over production (or under-production), investment (or lack of it), and commerce (or its stultification). It subordinates the separated regional economies of a society into a singularity. 
 
 ## Hypothesis
-Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 & 7 bank groups) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several manifestations of this monopolistic tendency). 
+Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 & 7 bank groups) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several metrics of centralization of banking). 
 
 ## Methodology
 
@@ -40,7 +40,7 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417
 **d) Interactive treemap**: Used Plotly to create an interactive treemap with parent to daughter sub-category relationships.
 ![Treemap Video GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/98bddfa5-97f8-460e-afce-76c635a37a73)
 
-e) **Statistical inferential analysis-linear regression model**: developed a linear regression model on the changes in the amount of consolidated assets held by two bank groups 1) the 7 biggest banks 2) the 4 biggest banks. This outputted a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
+**e)Statistical inferential analysis-linear regression model**: developed a linear regression model on the changes in the amount of consolidated assets held by two bank groups 1) the 7 biggest banks 2) the 4 biggest banks. This outputted a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
 
 ![linear_reg_big7](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7a6332d0-b647-40b6-b2fb-2b8c6780e3ab)
 
