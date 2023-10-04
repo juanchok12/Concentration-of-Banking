@@ -50,11 +50,11 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417
 
 **e)Statistical inferential analysis-linear regression model**: developed a linear regression model on the changes in the amount of consolidated assets held by two bank groups 1) the 7 biggest banks 2) the 4 biggest banks. This outputted a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
 
-<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7a6332d0-b647-40b6-b2fb-2b8c6780e3ab" width="25%" alt="linear_reg_big7">
+<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7a6332d0-b647-40b6-b2fb-2b8c6780e3ab" width="40%" alt="linear_reg_big7">
 
 
 
-<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7c43a1c5-1242-4aba-9da7-eec564b0a738" width="25%" alt="linear_reg_4big">
+<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7c43a1c5-1242-4aba-9da7-eec564b0a738" width="40%" alt="linear_reg_4big">
 
 
 
