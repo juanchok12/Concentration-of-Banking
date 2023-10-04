@@ -21,7 +21,7 @@ The Board of Governors of the Federal Reserve System publishes quarterly tables 
  * Bank ID
  * Consolidated assets
 Link: https://www.federalreserve.gov/releases/lbr/
-<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="75%" alt="data_source">
+<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="50%" alt="data_source">
 
 ## Methodology
 
