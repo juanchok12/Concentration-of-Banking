@@ -8,7 +8,7 @@ import dash_daq as daq
 
 
 app = dash.Dash(__name__, external_stylesheets=['dark_theme.css'])
-
+server=app.server
 #========================Loading the dataframes=================================
 path_to_tables = r"C:\Users\16193\My Drive\Back Up\The Internationalist Group\Political Economy\Lenin's Imperialism\Concentration of banking\Phylogeny tree\Tables"
 
