@@ -79,13 +79,19 @@ developed a linear regression model on the changes in the amount of consolidated
    <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7c43a1c5-1242-4aba-9da7-eec564b0a738" width="60%" alt="linear_reg_4big">
 
 
-## Analysis of Network of Acquisitions and Assets of the Big 4
+## Dash App-Analysis of Network of Acquisitions and Assets of the Big Four
+![Untitled video - Made with Clipchamp (8)](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/774d8614-6cb0-444a-8145-55751b612a2c)
 
-### a) Data wrangling
+### a) Data wrangling:
 Although the 'Transformations.csv' file gives a detail dataset on the mergers, acquisitions, branch and subsidiary consolidations between financial instutiotions, it does not reference the RSSD (the uniquie bank ID) to its legal name. Therefore, the cross refeence the data 'Transformations.csv' with the of the 'Attributes.csv', which gives more detail on the properties of the financial institution, including the legal name. 
 
 <div align="center">
    <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7bda601e-9279-412d-bb26-89bc53f7c3d1" width="60%">
+
+On top of this, I created a list of registered transformations in the 'Transformations.csv' that were branch consolidations. This is because I wanted to give the user the ability to filter out data points that were branch mergers with its national association bank. All of this data wrangling in in the 'big_4_MnA_network_plot_2-6-2024 _Github.ipynb' Jupyter Notebook
+
+### b) Network plotting the acquisitions and mergers of the Big Four:
+In the same Jupyter Notebook, I create the network plots that I transposed into the Dash app. The main idea is allow the user to see the historical pattern of mergers and acquisitions of the Big Four from 1960's (the earliest time for which the dataset has available data) up until Feb. 2024. 
 
 
 
