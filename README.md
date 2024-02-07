@@ -78,6 +78,10 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417
 
 ## Analysis of Network of Acquisitions and Assets of the Big 4
 
+### Data wrangling
+
+
+
 
 
 
