@@ -43,7 +43,7 @@ Both were obtained from the National Information Center.<br>
 
 ## Analysis of Consolidated Assets
 
-**a) From web scraping HTML tables to CSV files to creating pivot data frames using Python**: 
+### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
    
    1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables, downloaded the tables into HTML files and transformed these files into CSV files. 
     
@@ -54,11 +54,13 @@ Both were obtained from the National Information Center.<br>
 ![HTML to CSV to DF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a4d7549b-a649-4b3c-b6da-bbbd2312dd91)
 
 
-**b) Animated pie chart**: I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (size based on consolidated assets).
+### b) Animated pie chart: 
+I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (size based on consolidated assets).
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417-e0b7-4aa0-8b78-53cbbcda23b8
 
-**c) Interactive line plots**: I used Plotly's line plots to observe the two decade trend in the accumulation of consolidated assets between the biggest 7 banks in trillions of dollars. I also grouped all the large commercial banks into one group and the 7 biggest banks into another group to compare their consolidated assets over time (second GIF).
+### c) Interactive line plots: 
+I used Plotly's line plots to observe the two decade trend in the accumulation of consolidated assets between the biggest 7 banks in trillions of dollars. I also grouped all the large commercial banks into one group and the 7 biggest banks into another group to compare their consolidated assets over time (second GIF).
 ![Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ccdb13ed-5eed-4155-8c9f-06b2ef443bca)
 
 ![Two Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/16e11ec1-5cc3-40c4-8e8b-1f6cece471b7)
@@ -81,7 +83,6 @@ developed a linear regression model on the changes in the amount of consolidated
 
 ### Data wrangling
 fdfdfdsdfsdfdsfdsfsd
-
 
 
 
