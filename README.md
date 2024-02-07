@@ -41,7 +41,7 @@ Both were obtained from the National Information Center.<br>
  
 
 
-## Methodology
+## Analysis of Consolidated Assets
 
 **a) From web scraping HTML tables to CSV files to creating pivot data frames using Python**: 
    
@@ -74,6 +74,11 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417
 
 <div align="center">
    <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7c43a1c5-1242-4aba-9da7-eec564b0a738" width="60%" alt="linear_reg_4big">
+
+
+## Analysis of Network of Acquisitions and Assets of the Big 4
+
+
 
 
 
