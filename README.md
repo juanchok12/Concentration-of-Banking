@@ -94,7 +94,7 @@ On top of this, I created a list of registered transformations in the 'Transform
 In the same Jupyter Notebook, I create the network plots that I transposed into the Dash app. The main idea is allow the user to see the historical pattern of mergers and acquisitions of the Big Four from 1960's (the earliest time for which the dataset has available data) up until Feb. 2024. 
 
 <div align="center">
-   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a022299b-875c-4046-83d8-b7d0aef3d66b" width="60%">
+   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a022299b-875c-4046-83d8-b7d0aef3d66b" width="80%">
 
 
 
