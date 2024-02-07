@@ -73,13 +73,6 @@ I used Plotly's line plots to observe the two decade trend in the accumulation o
 ### e)Statistical inferential analysis-linear regression model: 
 developed a linear regression model on the changes in the amount of consolidated assets held by two bank groups 1) the 7 biggest banks 2) the 4 biggest banks. This outputted a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
 
-<div align="center">
-   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7a6332d0-b647-40b6-b2fb-2b8c6780e3ab" width="60%" alt="linear_reg_big7"></div>
-
-
-<div align="center">
-   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7c43a1c5-1242-4aba-9da7-eec564b0a738" width="60%" alt="linear_reg_4big"></div>
-
 
 ## Dash App-Analysis of Network of Acquisitions and Assets of the Big Four
 ![Untitled video - Made with Clipchamp (8)](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/774d8614-6cb0-444a-8145-55751b612a2c)
