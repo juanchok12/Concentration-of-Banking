@@ -16,8 +16,8 @@ Concentration of banking is the tendency of capital centralizing more and more a
 Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 & 7 bank groups) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several metrics of centralization of banking). 
 
 ## Data Source
+<u>This text will be underlined.</u>
 <u>Data for consolidated asset analysis</u><br>
-<u>Data source:</u>
 The Board of Governors of the Federal Reserve System publishes quarterly tables with the following important points for our research: 
  * Name of bank
  * Bank ID
