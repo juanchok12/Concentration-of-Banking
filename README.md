@@ -31,7 +31,7 @@ Link: https://www.federalreserve.gov/releases/lbr/
 Two datasets were utilized to construct a viable network plot model of the biggest 4 commercial banks in the U.S. (here referred to as the Big Four):
 
  * Relationships.csv: important data points were...
-  * Predecessor Bank ID (RSSD)
+      * Predecessor Bank ID (RSSD)
   * Successor Bank ID (RSSD)
   * Date of transformation (the date in which the merger or acquisition occurred)
  * Properties.csv: Since the "Relationships.csv" file only has RSSD as identifiers for banks, it was necessary to cross reference the "Properties.csv" file to obtain the legal name of the financial entities of interest.
