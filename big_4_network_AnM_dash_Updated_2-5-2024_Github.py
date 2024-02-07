@@ -27,7 +27,6 @@ trans_cb_df=pd.read_csv('https://raw.githubusercontent.com/juanchok12/Concentrat
 
 
 #============================= Initialize your Dash app==============================================
-app = dash.Dash(__name__)
 
 # App layout
 app.layout = html.Div([
