@@ -11,7 +11,6 @@ import gunicorn
 app = dash.Dash(__name__, external_stylesheets=['dark_theme.css'])
 server=app.server
 #========================Loading the dataframes=================================
-path_to_tables = r"C:\Users\16193\My Drive\Back Up\The Internationalist Group\Political Economy\Lenin's Imperialism\Concentration of banking\Phylogeny tree\Tables"
 
 #Dataframe for Chase
 trans_chase_df=pd.read_csv('https://raw.githubusercontent.com/juanchok12/Concentration-of-Banking/main/transformations_big_4/trans_chase_df.csv')
