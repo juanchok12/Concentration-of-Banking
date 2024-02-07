@@ -25,7 +25,12 @@ The Board of Governors of the Federal Reserve System publishes quarterly tables 
 
 Link: https://www.federalreserve.gov/releases/lbr/
 
-<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="50%" alt="data_source">
+<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="65%" alt="data_source">
+
+**Data for mergers and acquisitions:** <br>
+ "Relationships.csv". National Information Center. Federal Financial Instututions Examination Council. Feb. 5, 2024. [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload).
+ 
+
 
 ## Methodology
 
