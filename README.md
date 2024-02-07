@@ -5,9 +5,11 @@
 Quantifying the concentration/decentralization/equilibrium of banking as a property of monopoly capitalism from 2003-2023 by seeing trends in consolidated assets of large commercial banks.
 
 Research questions:
-* What is the current market share of banks manifested through the consolidated assets of banks in the U.S.?
+* What is the current market share of banking in the U.S. as measured by the share of consolidated assets? 
 
 * What is the historical (2003-2023) trend of monopolization/dispersion/equilibrium of banking in the U.S.?
+  
+* What do the trends in mergers and acquisitions of the biggest four commercial banks tell us about the monopolization/decentralization of banking in the U.S.?
 
 ## Description 
 Concentration of banking is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield anormous power over production (or under-production), investment (or lack of it), and commerce (or its stultification). It subordinates the separated regional economies of a society into a singularity. 
