@@ -102,7 +102,7 @@ app.layout = html.Div([
         ),
     ]),
     dcc.Graph(id='network-graph',
-              style={'width': '50%', 'margin': 'auto'},
+              style={'margin': 'auto'},
               ),
     dcc.Markdown(
     '''
