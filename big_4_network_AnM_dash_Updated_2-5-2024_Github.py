@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import networkx as nx
 import pandas as pd
 import dash_daq as daq
+import gunicorn
 
 
 app = dash.Dash(__name__, external_stylesheets=['dark_theme.css'])
