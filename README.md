@@ -20,7 +20,7 @@ Given a trend in the increase in the amount of consolidated assets by large comm
 
 The Board of Governors of the Federal Reserve System publishes quarterly tables with the following important points for our research: 
  * Name of bank
- * Bank ID
+ * Bank ID (know as the RSSD ID, which is a unique identifier assigned to institutions by the Federal Reserve)
  * Consolidated assets
 
 Link: https://www.federalreserve.gov/releases/lbr/
@@ -28,7 +28,16 @@ Link: https://www.federalreserve.gov/releases/lbr/
 <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="65%" alt="data_source">
 
 **Data for mergers and acquisitions:** <br>
- "Relationships.csv". National Information Center. Federal Financial Instututions Examination Council. Feb. 5, 2024. [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload).
+Two datasets were utilized to construct a viable network plot model of the biggest 4 commercial banks in the U.S. (here referred to as the Big Four):
+
+ * Relationships.csv: important data points were...
+  * Predecessor Bank ID (RSSD)
+  * Successor Bank ID (RSSD)
+  * Date of transformation (the date in which the merger or acquisition occurred)
+ * Properties.csv: Since the "Relationships.csv" file only has RSSD as identifiers for banks, it was necessary to cross reference the "Properties.csv" file to obtain the legal name of the financial entities of interest.
+
+Both were obtained from the National Information Center. 
+ "Relationships.csv" & "Properties.csv". National Information Center. Federal Financial Instututions Examination Council. Feb. 5, 2024. [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload).
  
 
 
