@@ -32,75 +32,77 @@ trans_cb_df=pd.read_csv('https://raw.githubusercontent.com/juanchok12/Concentrat
 app.layout = html.Div([
     html.H1('The Big Four Banks-Network of Acquisitions and Mergers',
             style={'textAlign': 'center'},),
+    # Row for Dropdown and Toggle
     html.Div([
-        html.H3('Select a Bank:', style={'textAlign': 'center'}),
-        dcc.Dropdown(
-            id='bank-dropdown',
-            options=[
-            {'label': 'Bank of America', 'value': 'Bank of America'},
-            {'label': 'Wells Fargo', 'value': 'Wells Fargo'},
-            {'label': 'Citibank', 'value': 'Citibank'},
-            {'label': 'Chase', 'value': 'Chase'}
-                # Add more banks here
-            ],
-            value='Chase',  # Default bank selection
-            style={
-                'backgroundColor':'#121212',
-                'color':'#FFFFFF',
-                'border':'1px solid #FFFFFF',
-                'width':'400px',
-                'textAlign':'center',
-                'margin':'auto',
-                
-                
-            }
-        )
-    ], style={'padding': '20px'}),
+        # Column for Dropdown
+        html.Div([
+            html.H3('Select a Bank:', style={'textAlign': 'center'}),
+            dcc.Dropdown(
+                id='bank-dropdown',
+                options=[
+                    {'label': 'Bank of America', 'value': 'Bank of America'},
+                    {'label': 'Wells Fargo', 'value': 'Wells Fargo'},
+                    {'label': 'Citibank', 'value': 'Citibank'},
+                    {'label': 'Chase', 'value': 'Chase'}
+                    # Add more banks here
+                ],
+                value='Chase',  # Default bank selection
+                style={
+                    'backgroundColor': '#121212',
+                    'color': '#FFFFFF',
+                    'border': '1px solid #FFFFFF',
+                    'width': '100%',  # Adjusted for responsiveness within the column
+                    'textAlign': 'center',
+                    'margin': 'auto',
+                }
+            )
+        ], style={'width': '48%', 'display': 'inline-block', 'padding': '0 20px 20px 0'}),  # Adjust width for side-by-side arrangement
 
-    html.Div([
-        daq.BooleanSwitch(
-            id='branch-consolidation-toggle',
-            label='Include branch consolidation',
-            color='#4146cc',
-            vertical=False,
-            on=False
+        # Column for BooleanSwitch
+        html.Div([
+            html.H3('Include branch consolidation',style={'textAlign': 'center'}),
+            daq.BooleanSwitch(
+                id='branch-consolidation-toggle',
+                color='#4146cc',
+                on=False
+            )
+        ], style={'width': '48%', 'display': 'inline-block', 'verticalAlign': 'top'}),
+    ], style={'width': '100%', 'display': 'flex', 'flexWrap': 'wrap'}), #Style for the row
 
-        )
-    ], style={'padding': '5px',
-              'color':'#FFFFFF',
-              #'float':'left'              
-              }),
+    # Row for Checklists of Accounting Method and Transformation Code
+    html.Div([
+        # Column for Accounting Method Checklist
+        html.Div([
+            html.H3('Filter by Accounting Method:', style={'textAlign': 'center'}),
+            dcc.Checklist(
+                id='acct-method-checklist',
+                options=[
+                    {'label': 'Not applicable', 'value': 'Not Applicable'},
+                    {'label': 'Merger', 'value': 'Merger'},
+                    {'label': 'Purchase/acquisition', 'value': 'Purchase/acquisition'}
+                ],
+                value=['Not Applicable', 'Merger', 'Purchase/acquisition'],  # Default selected values
+                inline=True
+            ),
+        ], style={'width': '48%', 'display': 'inline-block', 'padding': '0 20px 20px 0','textAlign': 'center'}),
 
-    html.Div([
-        html.H3('Filter by Accounting Method:', style={'textAlign': 'center'}),
-        dcc.Checklist(
-            id='acct-method-checklist',
-            options=[
-                {'label': 'Not applicable', 'value': 'Not Applicable'},
-                {'label': 'Merger', 'value': 'Merger'},
-                {'label': 'Purchase/acquisition', 'value': 'Purchase/acquisition'}
-            ],
-            value=['Not Applicable', 'Merger', 'Purchase/acquisition'],  # Default selected values
-            inline=True,
-            style={'marginLeft': '40%', 'marginRight': '25%','width': '50%'}
-        ),
-    ]),
-    html.Div([
-        html.H3('Filter by Transformation Code:', style={'textAlign': 'center'}),
-        dcc.Checklist(
-            id='trsfm-code-checklist',
-            options=[
-                {'label': 'Charter Discontinued', 'value': 'Charter Discontinued'},
-                {'label': 'Split', 'value': 'Split'},
-                {'label': 'Sale of Assets', 'value': 'Sale of Assets'},
-                {'label': 'Charter Retained', 'value': 'Charter Retained'},
-                {'label': 'Failure', 'value': 'Failure'}
-            ],
-            value=['Charter Discontinued', 'Split', 'Sale of Assets', 'Charter Retained', 'Failure'],  # Default selected values
-            inline=True,
-            style={'marginLeft': '35%', 'marginRight': '25%','width': '50%'}
-        ),
-    ]),
+        # Column for Transformation Code Checklist
+        html.Div([
+            html.H3('Filter by Transformation Code:', style={'textAlign': 'center'}),
+            dcc.Checklist(
+                id='trsfm-code-checklist',
+                options=[
+                    {'label': 'Charter Discontinued', 'value': 'Charter Discontinued'},
+                    {'label': 'Split', 'value': 'Split'},
+                    {'label': 'Sale of Assets', 'value': 'Sale of Assets'},
+                    {'label': 'Charter Retained', 'value': 'Charter Retained'},
+                    {'label': 'Failure', 'value': 'Failure'}
+                ],
+                value=['Charter Discontinued', 'Split', 'Sale of Assets', 'Charter Retained', 'Failure'],  # Default selected values
+                inline=True
+            ),
+        ], style={'width': '48%', 'display': 'inline-block', 'verticalAlign': 'top','textAlign': 'center'}),
+    ], style={'width': '100%', 'display': 'flex', 'flexWrap': 'wrap'}), #Style for the row
     dcc.Graph(id='network-graph',
               style={'margin': 'auto'},
               ),
