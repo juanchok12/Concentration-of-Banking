@@ -32,11 +32,11 @@ Two datasets were utilized to construct a viable network plot model of the bigge
 
  * Relationships.csv: important data points were...
       * Predecessor Bank ID (RSSD)
-  * Successor Bank ID (RSSD)
-  * Date of transformation (the date in which the merger or acquisition occurred)
+      * Successor Bank ID (RSSD)
+      * Date of transformation (the date in which the merger or acquisition occurred)
  * Properties.csv: Since the "Relationships.csv" file only has RSSD as identifiers for banks, it was necessary to cross reference the "Properties.csv" file to obtain the legal name of the financial entities of interest.
 
-Both were obtained from the National Information Center. 
+Both were obtained from the National Information Center.<br>
  "Relationships.csv" & "Properties.csv". National Information Center. Federal Financial Instututions Examination Council. Feb. 5, 2024. [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload).
  
 
