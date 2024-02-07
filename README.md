@@ -34,10 +34,10 @@ Two datasets were utilized to construct a viable network plot model of the bigge
       * Predecessor Bank ID (RSSD)
       * Successor Bank ID (RSSD)
       * Date of transformation (the date in which the merger or acquisition occurred)
- * Properties.csv: Since the "Relationships.csv" file only has RSSD as identifiers for banks, it was necessary to cross reference the "Properties.csv" file to obtain the legal name of the financial entities of interest.
+ * Attributes.csv: Since the "Relationships.csv" file only has RSSD as identifiers for banks, it was necessary to cross reference the "Attributes.csv" file to obtain the legal name of the financial entities of interest.
 
 Both were obtained from the National Information Center.<br>
- "Relationships.csv" & "Properties.csv". National Information Center. Federal Financial Instututions Examination Council. Feb. 5, 2024. [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload).
+ "Relationships.csv" & "Attributes.csv". National Information Center. Federal Financial Instututions Examination Council. Feb. 5, 2024. [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload).
  
 
 
@@ -81,11 +81,10 @@ developed a linear regression model on the changes in the amount of consolidated
 
 ## Analysis of Network of Acquisitions and Assets of the Big 4
 
-### Data wrangling
-fdfdfdsdfsdfdsfdsfsd
+### a) Data wrangling
+Although the 'Transformations.csv' file gives a detail dataset on the mergers, acquisitions, branch and subsidiary consolidations between financial instutiotions, it does not reference the RSSD (the uniquie bank ID) to its legal name. Therefore, the cross refeence the data 'Transformations.csv' with the of the 'Attributes.csv', which gives more detail on the properties of the financial institution, including the legal name. 
 
-
-
+![Presentation1](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7bda601e-9279-412d-bb26-89bc53f7c3d1)
 
 
 
