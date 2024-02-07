@@ -84,7 +84,8 @@ developed a linear regression model on the changes in the amount of consolidated
 ### a) Data wrangling
 Although the 'Transformations.csv' file gives a detail dataset on the mergers, acquisitions, branch and subsidiary consolidations between financial instutiotions, it does not reference the RSSD (the uniquie bank ID) to its legal name. Therefore, the cross refeence the data 'Transformations.csv' with the of the 'Attributes.csv', which gives more detail on the properties of the financial institution, including the legal name. 
 
-![Presentation1](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7bda601e-9279-412d-bb26-89bc53f7c3d1)
+<div align="center">
+   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7bda601e-9279-412d-bb26-89bc53f7c3d1" width="60%">
 
 
 
