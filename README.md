@@ -98,5 +98,18 @@ In the same Jupyter Notebook, I create the network plots that I transposed into 
 <div align="center">
    <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a022299b-875c-4046-83d8-b7d0aef3d66b" width="80%">
 
+### c) Dash app of network plots with filters
+The final product is a Dash app that allows the user to filter the data points based on the following categories:
+
+  * Transformation is a branch consolidation.
+  * Accouting method: determining if the transformation was a purchase, acquisition, merger, or its not applicable.
+  * Transformation code:
+      * Charter discontinued
+      * Split
+      * Sale of assets
+      * Charter retained
+      * Failure
+   
+This allows the user to dynamically see the trends based on this preliminary categories.   
 
 
