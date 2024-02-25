@@ -1,0 +1,23 @@
+Column1,ID_RSSD_PREDECESSOR,ID_RSSD_SUCCESSOR,D_DT_TRANS,Transformation Code,Accounting Method,DT_TRANS,Year,Predecessor_Name,Successor_Name
+762,3382547,476810,7/1/2022 0:00,Charter Discontinued,Merger,20220701,2022,DEPARTMENT STORES NATIONAL BANK                                                                                         ,Citibank
+9226,3158498,476810,6/19/2012 0:00,Charter Discontinued,Merger,20120619,2012,"CAL FED HOLDINGS, INC.                                                                                                  ",Citibank
+9563,374112,476810,1/1/2012 0:00,Charter Discontinued,Merger,20120101,2012,"CITICORP TRUST BANK, FSB                                                                                                ",Citibank
+10382,486752,476810,7/1/2011 0:00,Charter Discontinued,Merger,20110701,2011,"CITIBANK (SOUTH DAKOTA), NATIONAL ASSOCIATION                                                                           ",Citibank
+14892,545538,476810,1/1/2007 0:00,Charter Discontinued,Merger,20070101,2007,CITIBANK INTERNATIONAL                                                                                                  ,Citibank
+15237,490115,476810,10/1/2006 0:00,Charter Discontinued,Merger,20061001,2006,"NEW CASTLE BRANCH [CITIBANK, N.A.]",Citibank
+15245,596361,476810,10/1/2006 0:00,Charter Discontinued,Merger,20061001,2006,"LA MAIN BRANCH [CITIBANK, N.A.]",Citibank
+15273,1363270,476810,10/1/2006 0:00,Charter Discontinued,Merger,20061001,2006,"LINCOLN PARK BRANCH [CITIBANK, N.A.]",Citibank
+15276,2132660,476810,10/1/2006 0:00,Charter Discontinued,Merger,20061001,2006,"RESTON BRANCH [CITIBANK, N.A.]",Citibank
+15288,3119145,476810,10/1/2006 0:00,Charter Discontinued,Merger,20061001,2006,"SAN FRANCISCO BRANCH [CITIBANK, N.A.]",Citibank
+18738,536219,476810,8/30/2003 0:00,Charter Discontinued,Purchase/Acquisition,20030830,2003,"99 GARNSEY BRANCH [CITIBANK, N.A.]",Citibank
+20437,2702979,476810,1/3/2002 0:00,Charter Discontinued,Merger,20020103,2002,UNIVERSAL CARD SERVICES CORP.                                                                                           ,Citibank
+0,0,0,1/3/2002 0:00,Charter Discontinued,Purchase/Acquisition,20010806,2001,BANAMEX,Citibank
+21193,736309,476810,1/3/2002 0:00,Charter Discontinued,Purchase/Acquisition,20010717,2001,"120 BROADWAY BRANCH [CITIBANK, N.A.]",Citibank
+0,0,0,1/3/2002 0:00,Charter Discontinued,Purchase/Acquisition,20010717,2001,EUROPEAN AMERICAN BANK,Citibank
+25869,2509963,476810,7/31/1998 0:00,Charter Discontinued,Purchase/Acquisition,19980731,1998,"BHN MULTIBANCO, S.A.                                                                                                    ",Citibank
+49217,633314,476810,8/20/1984 0:00,Failure,Not Applicable,19840820,1984,GIROD TRUST COMPANY                                                                                                     ,Citibank
+52545,219316,476810,6/12/1982 0:00,Failure,Not Applicable,19820612,1982,BANCO REGIONAL DE AHORRO DE BAYAMON                                                                                     ,Citibank
+55397,220107,476810,1/2/1976 0:00,Charter Discontinued,Not Applicable,19760102,1976,CENTRAL VALLEY BRANCH [HUDSON UNITED BANK],Citibank
+55400,935803,476810,1/2/1976 0:00,Charter Discontinued,Not Applicable,19760102,1976,"BAY SHORE BRANCH [CITIBANK, N.A.]",Citibank
+57264,471413,476810,1/16/1963 0:00,Charter Discontinued,Not Applicable,19630116,1963,FIRST NATIONAL CITY TRUST COMPANY                                                                                       ,Citibank
+57307,1017818,476810,11/5/1962 0:00,Charter Discontinued,Not Applicable,19621105,1962,"PORT RICHMOND BR [CITIBANK, N.A.]",Citibank
