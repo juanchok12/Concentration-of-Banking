@@ -1,6 +1,6 @@
 Column1,ID_RSSD_PREDECESSOR,ID_RSSD_SUCCESSOR,D_DT_TRANS,Transformation Code,Accounting Method,DT_TRANS,Year,Predecessor_Name,Successor_Name
 762,3382547,476810,7/1/2022 0:00,Charter Discontinued,Merger,20220701,2022,DEPARTMENT STORES NATIONAL BANK,Citibank                                                                                         ,Citibank
-9226,3158498,476810,6/19/2012 0:00,Charter Discontinued,Merger,20120619,2012,"CAL FED HOLDINGS, INC.",Citibank                                                                                              ",Citibank
+9226,3158498,476810,6/19/2012 0:00,Charter Discontinued,Merger,20120619,2012,"CAL FED HOLDINGS, INC",Citibank                                                                                              ",Citibank
 9563,374112,476810,1/1/2012 0:00,Charter Discontinued,Merger,20120101,2012,"CITICORP TRUST BANK, FSB",Citibank                                                                                                ",Citibank
 10382,486752,476810,7/1/2011 0:00,Charter Discontinued,Merger,20110701,2011,"CITIBANK (SOUTH DAKOTA), NATIONAL ASSOCIATION",Citibank                                                                          ",Citibank
 14892,545538,476810,1/1/2007 0:00,Charter Discontinued,Merger,20070101,2007,CITIBANK INTERNATIONAL,Citibank                                                                                                 ,Citibank
