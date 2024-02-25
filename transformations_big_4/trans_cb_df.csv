@@ -12,7 +12,7 @@ Column1,ID_RSSD_PREDECESSOR,ID_RSSD_SUCCESSOR,D_DT_TRANS,Transformation Code,Acc
 18738,536219,476810,8/30/2003 0:00,Charter Discontinued,Purchase/Acquisition,20030830,2003,"99 GARNSEY BRANCH [CITIBANK, N.A.]",Citibank
 20437,2702979,476810,1/3/2002 0:00,Charter Discontinued,Merger,20020103,2002,UNIVERSAL CARD SERVICES CORP.                                                                                           ,Citibank
 0,0,0,1/3/2002 0:00,Charter Discontinued,Purchase/Acquisition,20010806,2001,BANAMEX,Citibank
-21193,736309,476810,1/3/2002 0:00,Charter Discontinued,Purchase/Acquisition,20010717,2001,"""120 BROADWAY BRANCH [CITIBANK, N.A.]""",Citibank
+21193,736309,476810,1/3/2002 0:00,Charter Discontinued,Purchase/Acquisition,20010717,2001,"120 BROADWAY BRANCH [CITIBANK, N.A.]"",Citibank
 0,0,0,1/3/2002 0:00,Charter Discontinued,Purchase/Acquisition,20010717,2001,EUROPEAN AMERICAN BANK,Citibank
 25869,2509963,476810,7/31/1998 0:00,Charter Discontinued,Purchase/Acquisition,19980731,1998,"BHN MULTIBANCO, S.A.                                                                                                    ",Citibank
 49217,633314,476810,8/20/1984 0:00,Failure,Not Applicable,19840820,1984,GIROD TRUST COMPANY                                                                                                     ,Citibank
