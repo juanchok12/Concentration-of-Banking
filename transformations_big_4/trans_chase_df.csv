@@ -28,7 +28,7 @@ Column1,ID_RSSD_PREDECESSOR,ID_RSSD_SUCCESSOR,D_DT_TRANS,Transformation Code,Acc
 20789,161415,852218,11/10/2001 0:00,Charter Discontinued,Merger,20011110,2001,"60 WALL STREET BRANCH [JPMORGAN CHASE BANK, NATIONAL ASSOCIATION]",Chase
 21165,871460,852218,8/1/2001 0:00,Charter Discontinued,Merger,20010801,2001,"CHASE BANK OF TEXAS-SAN ANGELO, NATIONAL ASSOCIATION                                                                    ",Chase
 22647,43557,852218,8/1/2000 0:00,Charter Discontinued,Merger,20000801,2000,"HOUSTON MAIN BRANCH [JPMORGAN CHASE BANK, NATIONAL ASSOCIATION]",Chase
-NA,NA,NA,NA,Charter Discontinued,Merger,20000801,2000,CHASE MANHATTAN & JP MORGAN,
+NA,NA,NA,NA,Charter Discontinued,Merger,20000801,2000,CHASE MANHATTAN & JP MORGAN, Chase
 24823,35619,852218,3/5/1999 0:00,Charter Discontinued,Merger,19990305,1999,TEXAS COMMERCE TRUST COMPANY OF NEW YORK                                                                                ,Chase
 25604,1983324,852218,10/1/1998 0:00,Charter Discontinued,Purchase/Acquisition,19981001,1998,MORGAN STANLEY TRUST COMPANY                                                                                            ,Chase
 28800,736804,852218,12/1/1996 0:00,Charter Discontinued,Merger,19961201,1996,"225 SOUTH STREET BRANCH [JPMORGAN CHASE BANK, NATIONAL ASSOCIATION]",Chase
