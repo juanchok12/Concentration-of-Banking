@@ -78,7 +78,7 @@ developed a linear regression model on the changes in the amount of consolidated
 ![Untitled video - Made with Clipchamp (8)](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/774d8614-6cb0-444a-8145-55751b612a2c)
 
 ### a) Data wrangling:
-Although the 'Transformations.csv' file gives a detail dataset on the mergers, acquisitions, branch and subsidiary consolidations between financial instutiotions, it does not reference the RSSD (the uniquie bank ID) to its legal name. Therefore, the cross refeence the data 'Transformations.csv' with the of the 'Attributes.csv', which gives more detail on the properties of the financial institution, including the legal name. 
+Although the 'Transformations.csv' file gives a detail dataset on the mergers, acquisitions, branch and subsidiary consolidations between financial instutiotions, it does not reference the RSSD (the uniquie bank ID) to its legal name. Therefore, we cross reference the data 'Transformations.csv' with the of the 'Attributes.csv' to gives more detail on the properties of the financial institution, including the legal name. 
 
 <div align="center">
    <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7bda601e-9279-412d-bb26-89bc53f7c3d1" width="60%"></div>
