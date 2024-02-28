@@ -67,7 +67,8 @@ I used Plotly's line plots to observe the two decade trend in the accumulation o
 
 ![Two Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/16e11ec1-5cc3-40c4-8e8b-1f6cece471b7)
 
-**d) Interactive treemap**: Used Plotly to create an interactive treemap with parent to daughter sub-category relationships.
+### d) Interactive treemap: 
+Used Plotly to create an interactive treemap with parent to daughter sub-category relationships.
 ![Treemap Video GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/98bddfa5-97f8-460e-afce-76c635a37a73)
 
 ### e)Statistical inferential analysis-linear regression model: 
