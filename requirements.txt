@@ -4,3 +4,4 @@ networkx
 pandas
 dash-daq
 gunicorn
+scipy
