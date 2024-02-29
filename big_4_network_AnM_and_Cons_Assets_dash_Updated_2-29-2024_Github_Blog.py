@@ -6,15 +6,7 @@ import networkx as nx
 import pandas as pd
 import dash_daq as daq
 import gunicorn
-from scipy import stats
-import plotly.graph_objects as go 
-import numpy as np
-import seaborn as sns
-from sklearn.linear_model import LinearRegression
-import seaborn as sns
-import matplotlib.pyplot as plt
-import chart_studio
-import plotly.express as px
+
 
 
 # Create a Dash app
