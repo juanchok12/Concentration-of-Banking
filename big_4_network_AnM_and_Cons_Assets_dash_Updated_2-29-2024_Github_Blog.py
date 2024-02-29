@@ -761,26 +761,6 @@ bank_to_branch_list = {
     'Wells Fargo': wf_branch_list,
     'Citibank': cb_branch_list}
 
-#==========================Linear Regression Plot for Consolidated Assets===========================
-
-#------------------------Linear regression model------------------------------------------------
-#Development of the linear regression model
-model=LinearRegression()
-sns.regplot(x='Quarter_Ordinal',y='Assets',
-            data=big_four_lin_reg,)
-
-model.fit(big_four_lin_reg['Quarter_Ordinal'].values.reshape(-1,1),
-big_four_lin_reg['Assets'].values)
-
-#Annoating the linear regression model as a string
-m=model.coef_[0]
-m_in_billions=round(m/1e9,2)
-b=model.intercept_
-b_in_billions=round(b/1e9,2)
-regression_model=f"f(x)={m_in_billions}Bx+{b_in_billions}B"
-
-
-
 
 #==============================Theme=================================================
 # Run the server
