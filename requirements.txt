@@ -5,4 +5,4 @@ pandas
 dash-daq
 gunicorn
 scipy
-dash_mantine_components
+dash-mantine-components
