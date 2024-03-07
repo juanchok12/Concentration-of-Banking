@@ -3,6 +3,6 @@ plotly
 networkx
 pandas
 dash-daq
-gunicorn
+gunicorn==21.2.0
 scipy
 dash-mantine-components
