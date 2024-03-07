@@ -6,10 +6,9 @@ import networkx as nx
 import pandas as pd
 import dash_daq as daq
 import gunicorn
-import dash_player as dp
 from dash import Dash, html
 import dash_mantine_components as dmc
-import dash_bootstrap_components as dbc
+
 
 # Create a Dash app
 app = dash.Dash(__name__, external_stylesheets=['dark_theme.css']) # Add external CSS
