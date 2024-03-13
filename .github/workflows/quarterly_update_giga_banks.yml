@@ -1,0 +1,48 @@
+name: Update and Upload Giga Banks Data 
+
+on: 
+  workflow_dispatch:
+  push: #Specifies that the branch should run on a push event
+    branches:
+      - main #name of default branch for 'Concentration-of-Banking' repository
+  schedule:
+    - cron: '0 0 1 1,4,7,10 *' #At 00:00 on day-of-month 1 in Jan., Apr., Jun. and Oct. 
+
+jobs: #Defines all of the jobs that will be executed as a result of the workflow
+  update_and_upload: #This is a specific job within the workflow (the name is a variable for the job)
+    runs-on: ubuntu-latest #Specifies the runner that the runner will run on. A runner is a virtual machine or container that executes the job's steps
+    
+    steps: 
+      - name: Checkout repo content
+        uses: actions/checkout@v2 # Github action  provided byt Github to clone repositories. 
+      
+      #Prepare the Github Actions runner with a specific version of Python
+      - name: Set up Python 3.8 
+        uses: actions/setup-python@v2 #Ensures that 'python' and 'pip' commands in subsequent steps run using Python 3.8.
+        with:
+          python-version: 3.8 #Specifically identifies which version of Python is to be used. 
+
+       #Install the required Python packages for the script to run. 
+      - name: Install dependencies
+       run: |
+         pip install yfinance pandas
+       #Execute your Python script 'giga_banks.py' which is 
+      - name: Run the script to update data
+       run: |
+         python ./scripts/giga_banks.py
+         
+      #automate the process of committing and pushing updates to the giga_banks.csv file 
+      - name: Commit and push if there are changes
+        run: |
+      #Set the email address that will be associated with the commit.
+          git config --global user.email "juan.torres2012@gmail.com" 
+      #Set the name associated with the commit, in this case "GitHub Actions" to indicate that the commit was made automatically by GitHub Actions workflow
+          git config --global user.name "GitHub Actions"
+          #It specifies the path to the file that your Python script updates. 
+          git add transformations_big_4/giga_banks/giga_banks.csv
+          #Creates a commit with the staged changes, using a  commit message that indicates the nature of the update
+          git commit -m "Automatically update Giga Banks data" || echo "No changes to commit"
+          #This pushes the commit to the repository on GitHub. If the commit was created in the previous steps, this updates the repository with the changes
+          git push
+         
+       
