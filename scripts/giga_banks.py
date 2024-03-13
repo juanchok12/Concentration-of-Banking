@@ -182,5 +182,6 @@ combine_df=combine_df.drop(columns=['JPM_Shares', 'JPM_Value', 'BOA_Shares', 'BO
 combine_df.columns=['Chase', 'Bank of America', 'Citigroup', 'Wells Fargo']
 
 #Download the data to a CSV file
-combine_df.to_csv('giga_banks.csv')
+combine_df.to_csv('transformations_big_4/giga_banks/giga_banks.csv')
+
 
