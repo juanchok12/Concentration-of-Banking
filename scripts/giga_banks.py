@@ -181,6 +181,9 @@ combine_df=combine_df.drop(columns=['JPM_Shares', 'JPM_Value', 'BOA_Shares', 'BO
 #Change the JMP_pctHeld and BOA_pctHeld columns names to Chase and Bank of America
 combine_df.columns=['Chase', 'Bank of America', 'Citigroup', 'Wells Fargo']
 
+#Convert the decimal values to percentages
+combine_df = combine_df.applymap(lambda x: f'{x*100:.2f}%')
+
 #Download the data to a CSV file
 combine_df.to_csv('transformations_big_4/giga_banks/giga_banks.csv')
 
