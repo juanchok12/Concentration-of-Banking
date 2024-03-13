@@ -35,4 +35,4 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add transformations_big_4/giga_banks/giga_banks.csv
           git commit -m "Automatically update Giga Banks data" || echo "No changes to commit"
-          git push
+          git -c http.extraHeader="AUTHORIZATION: bearer ${{ secrets.MY_GITHUB_TOKEN }}" push
