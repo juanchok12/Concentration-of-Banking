@@ -1,1 +1,35 @@
+name: Update and Upload Giga Banks Data 
 
+on: 
+  push: #Specifies that the branch should run on a push event
+    branches:
+      - main #name of default branch for 'Concentration-of-Banking' repository
+  schedule:
+    -cron: '0 0 1 1,4,7,10 *' #At 00:00 on day-of-month 1 in Jan., Apr., Jun. and Oct. 
+
+jobs: #Defines all of the jobs that will be executed as a result of the workflow
+  update_and_upload: #This is a specific job within the workflow (the name is a variable for the job)
+    runs-on: ubuntu-latest #Specifies the runner that the runner will run on. A runner is a virtual machine or container that executes the job's steps
+    
+    steps: 
+      - name: Checkout repo content
+        uses: actions/checkout@v2 # Github action  provided byt Github to clone repositories. 
+      
+      #Prepare the Github Actions runner with a specific version of Python
+      -name: Set up Python 3.8 
+       uses: actions/setup-python@v2 #Ensures that 'python' and 'pip' commands in subsequent steps run using Python 3.8.
+       with:
+         python-version: 3.8 #Specifically identifies which version of Python is to be used. 
+
+       #Install the required Python packages for the script to run. 
+      -name: Install dependencies
+       run: |
+         pip install yfinance pandas
+       #Execute your Python script 'giga_banks.py' which is 
+      -name: Run the script to update data
+       run: |
+         python ./scripts/giga_banks.py
+         
+       
+        
+    
