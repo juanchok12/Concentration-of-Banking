@@ -2,7 +2,7 @@ name: Update and Upload Giga Banks Data
 
 on: 
   workflow_dispatch:
-  push: # Specifies that the branch should run on a push event
+  push: # Specifies that the branch should run on a push event hhhh
     branches:
       - main # Name of default branch for 'Concentration-of-Banking' repository
   schedule:
