@@ -1,0 +1,17 @@
+/* dark_theme.css */
+body {
+    background-color: #121212;
+    color: #E1E1E1; /* Change the color of the text */
+    font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+    color: #E1E1E1;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 2.5px 0;
+    border: none;
+    padding:0; 
+}
