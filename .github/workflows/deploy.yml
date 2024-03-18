@@ -23,8 +23,8 @@ jobs:
     # Add steps for testing your application if needed
     # - name: Test
     #   run: |
-    - name: Zip the repository
-      run: zip -r deployment-package.zip . -x "*.git*"
+    - name: Zip the deploy repository
+      run: zip -r deployment-package.zip ./deploy # Zip only the deploy directory
 
     - name: Deploy to AWS Elastic Beanstalk
       uses: einaregilsson/beanstalk-deploy@v18
