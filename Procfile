@@ -1,1 +1,1 @@
-web: gunicorn -b :8000 application:server
+web: gunicorn application:app
