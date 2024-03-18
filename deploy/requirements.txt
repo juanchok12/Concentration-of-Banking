@@ -1,0 +1,10 @@
+dash
+plotly
+networkx
+pandas
+dash-daq
+gunicorn==21.2.0
+scipy
+dash-mantine-components
+yfinance
+dash-table
