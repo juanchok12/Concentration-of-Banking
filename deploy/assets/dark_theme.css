@@ -15,3 +15,70 @@ h1 {
     border: none;
     padding:0; 
 }
+
+.Div {
+    margin-bottom: 1px; /* Adjust the margin as needed */
+}
+
+.Dropdown {
+    background-color: #000000;
+    border: 0.1px solid #fbf9f9;
+    color: #f4f1f1; /* Change the color of the dropdown control */
+}
+
+.Checklist {
+    color: #E1E1E1;
+}
+
+.Checklist-item {
+    background-color: #333333;
+    border-radius: 1px;
+    margin: 1px 0;
+    padding: 1px;
+}
+
+.Checklist-item input {
+    margin-right: 1px;
+}
+
+.Checklist-item label {
+    color: #E1E1E1;
+    font-size: 16px;
+}
+
+.Graph {
+    background-color: #222;
+    border: 20px solid #444;
+    margin-top: 1000px; /* Adjust the margin as needed */
+    padding: 20px;
+}
+
+/* Adjust the padding and margins as needed */
+div, .Dropdown, .Checklist, .Graph {
+    margin: 0.18px 0;
+    padding: 0.25px; /* Adjust the padding as needed. */
+}
+
+/* This ensures the dropdown menu itself, not just the control, also follows the dark theme */
+.VirtualizedSelectOption {
+    background-color: #080101; /* Change the color of the options */
+    color: #f6f6f6; /* Change the color of the options words*/
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: #999797; /* Change the color of the focused option */
+}
+
+/* Style the dropdown arrow and clear button */
+.Select-arrow-zone, .Select-clear-zone {
+    color: #010000; /* Change the color of the arrow and clear button */
+}
+
+/* Hover state for checklist items for better user experience */
+.Checklist-item:hover {
+    background-color: #444444;
+}
+
+.Select-value-label, .Select.option {
+    color: #ffffff !important; /* Change the color of the selected option */
+}
