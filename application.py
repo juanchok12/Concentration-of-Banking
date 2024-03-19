@@ -482,7 +482,7 @@ app.layout = html.Div([
                         gutter="xs",  # Adjust space between plots
                         children=[
                             dmc.Col(html.Iframe(id='lin-reg-plot', src="//plotly.com/~juanchojuaninski/60.embed", style={'width': '100%', 'height': '400px'}), md=6, sm=12),
-                            dmc.Col(html.Iframe(id='treemap-plot', src="//plotly.com/~juanchojuaninski/48.embed", style={'width': '100%', 'height': '400px'}), md=6, sm=12),
+                            dmc.Col(html.Iframe(id='treemap-plot', src="//plotly.com/~juanchojuaninski/60.embed", style={'width': '100%', 'height': '400px'}), md=6, sm=12),
                             dmc.Col(html.Iframe(id='animated-pie-chart', src="https://drive.google.com/file/d/1V9ediUsIoGrvC6Ngsh6ha0HosYxdDslL/preview", style={'width': '100%', 'height': '400px'}), md=6, sm=12),
                             dmc.Col(html.Iframe(id='line-plot', src="//plotly.com/~juanchojuaninski/44.embed", style={'width': '100%', 'height': '400px'}), md=6, sm=12),
                         ] 
