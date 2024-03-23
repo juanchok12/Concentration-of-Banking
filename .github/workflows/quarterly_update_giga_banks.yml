@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --global user.email "juan.torres2012@gmail.com" 
           git config --global user.name "GitHub Actions"
-          git add transformations_big_4/datasets/giga_banks_ownership.csv
+          git add datasets/giga_banks_ownership.csv
           git commit -m "Automatically update Giga Banks data" || echo "No changes to commit"
           git -c http.extraHeader="AUTHORIZATION: bearer ${{ secrets.PAT }}" push
