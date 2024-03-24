@@ -185,6 +185,6 @@ combine_df.columns=['Chase', 'Bank of America', 'Citigroup', 'Wells Fargo']
 combine_df = combine_df.applymap(lambda x: f'{x*100:.2f}%')
 
 #Download the data to a CSV file
-combine_df.to_csv('datasets/giga_banks.csv')
+combine_df.to_csv('datasets/giga_banks_ownership.csv')
 
 
