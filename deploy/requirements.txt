@@ -8,5 +8,5 @@ scipy
 dash-mantine-components
 yfinance
 dash-table
-sklearn
+scikit-learn
 seaborn
