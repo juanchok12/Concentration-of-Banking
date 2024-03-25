@@ -569,8 +569,12 @@ def update_stock_data(n):
 
     return chase_figure, boa_figure, wf_figure, c_figure
 
-    
-
+#========================control browser caching behavior ===================================    
+@app.server.after_request
+def add_header(response):
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    response.headers['Pragma'] = 'no-cache'
+    return response
 
 
 
