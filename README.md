@@ -17,6 +17,9 @@ Concentration of banking is the tendency of capital centralizing more and more a
 ## Hypothesis
 Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 & 7 bank groups) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several metrics of centralization of banking). This hypothesis is furthered by the acquisition and merger behavior of the biggest four commercial banks over last couple of decades. 
 
+## Data Product
+https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/42f9dcf0-640c-4260-b1b6-6b08bbf88d8c
+
 ## Data Source
 **Data for consolidated assets:** <br>
 
