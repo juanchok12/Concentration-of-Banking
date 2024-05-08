@@ -26,8 +26,7 @@ Given a trend in the increase in the amount of consolidated assets by large comm
 ![Data pipeline for consolidated assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7f6f5806-15c6-4b34-a9d2-b799cd4355c6)
 
 
-The Board of Governors of the Fe![Uploading Data pipeline for consolidated assets.jpg…]()
-deral Reserve System publishes quarterly tables with the following important points for our research: 
+The Board of Governors of the Federal Reserve System publishes quarterly tables with the following important points for our research: 
  * Name of bank
  * Bank ID (know as the RSSD ID, which is a unique identifier assigned to institutions by the Federal Reserve)
  * Consolidated assets
@@ -35,6 +34,14 @@ deral Reserve System publishes quarterly tables with the following important poi
 Link: https://www.federalreserve.gov/releases/lbr/
 
 <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="65%" alt="data_source">
+
+The document "automated_data_pipeline.py" automates the process of 
+•	Web scraping each quarterly link 
+•	Transforming the data from HTML to CSV documents so that we can manipulate the data.
+•	Data cleaning: standardization of column headers and data, adding columns that calculate percentages. 
+•	Data wrangling: Setting master data frames, pivoting, concatenating dataframes that develop plot ready data frames.
+•	Uploads data frames into Github repository.
+
 
 **Data for mergers and acquisitions:** <br>
 Two datasets were utilized to construct a viable network plot model of the biggest 4 commercial banks in the U.S. (here referred to as the Big Four):
