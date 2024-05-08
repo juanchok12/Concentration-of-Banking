@@ -36,11 +36,11 @@ Link: https://www.federalreserve.gov/releases/lbr/
 <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="65%" alt="data_source">
 
 The document "automated_data_pipeline.py" automates the process of 
-•	Web scraping each quarterly link 
-•	Transforming the data from HTML to CSV documents so that we can manipulate the data.
-•	Data cleaning: standardization of column headers and data, adding columns that calculate percentages. 
-•	Data wrangling: Setting master data frames, pivoting, concatenating dataframes that develop plot ready data frames.
-•	Uploads data frames into Github repository.
+*	Web scraping each quarterly link 
+*	Transforming the data from HTML to CSV documents so that we can manipulate the data.
+*	Data cleaning: standardization of column headers and data, adding columns that calculate percentages. 
+*	Data wrangling: Setting master data frames, pivoting, concatenating dataframes that develop plot ready data frames.
+*	Uploads data frames into Github repository.
 
 
 **Data for mergers and acquisitions:** <br>
