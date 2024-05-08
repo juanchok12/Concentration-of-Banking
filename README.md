@@ -1,4 +1,4 @@
-# Concentration-of-Banking
+# Concentration-of-Banking  💰 🏦 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8-56b7-4b71-961a-b474b36d2a6d
 ## Goal & Description
 Quantifying the concentration/decentralization/equilibrium of banking as a property/process/phenomena of in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging & acquisition activies by large commercial banks. 
