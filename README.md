@@ -23,9 +23,11 @@ Given a trend in the increase in the amount of consolidated assets by large comm
 
 ## Data Sources
 **Data for consolidated assets:** <br>
-![Data pipeline for consolidated assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/2e1bf302-9ebb-4329-99b4-bdfda30a1bba)
+![Data pipeline for consolidated assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7f6f5806-15c6-4b34-a9d2-b799cd4355c6)
 
-The Board of Governors of the Federal Reserve System publishes quarterly tables with the following important points for our research: 
+
+The Board of Governors of the Fe![Uploading Data pipeline for consolidated assets.jpg…]()
+deral Reserve System publishes quarterly tables with the following important points for our research: 
  * Name of bank
  * Bank ID (know as the RSSD ID, which is a unique identifier assigned to institutions by the Federal Reserve)
  * Consolidated assets
