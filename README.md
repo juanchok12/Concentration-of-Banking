@@ -49,9 +49,12 @@ Two datasets were utilized to construct a viable network plot model of the bigge
 
 Both were obtained from the National Information Center.<br>
  "Relationships.csv" & "Attributes.csv". National Information Center. Federal Financial Instututions Examination Council. Feb. 5, 2024. [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload).
+
+ ### Data for the phylogenetic tree tab
+ The package used to create the phylogenetic tree is HighCharts, which is based on JavaScript. The data, however, was compiled by me engaging in business corporate research to find the recent historical merging & acquisition history of the Big Four banks. The reason I added phylogenetic tree in addition to the network plot of acquisitions and mergers is because the data shared by the NIC has a lot of data points on the branch and subsidiary consolidations. Additionally, I found that that categorization of the transformations in the NIC database (e.g. whether it was a purchase or a merger) was not optimally accurate. Therefore, I wanted to have a summarized version of the recent historical activity in the merging & acquisition of the Big Four banks, that gives the additional data point of market value/cost of the merging/acquisition.  
+
  
-
-
+ 
 ## Analysis of Consolidated Assets
 
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
