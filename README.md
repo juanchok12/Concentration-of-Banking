@@ -58,7 +58,9 @@ The data was compiledcorporate research (e.g. looking into business news) to fin
 
  Aside from the phylogenetic tree we have the “Giga Banks Ownership on the Big Four” table and the “Historical Share Price” line plot covering the other half of the tab. Both items extract their data from Yahoo! Finance through the yfinance API. The “Giga Banks Ownership on the Big Four” table represents the share ownership of the biggest asset management firms in the U.S. (AKA the Giga Banks) on the Big Four banks, to demonstrate another layer on the concentration of banking. Through a bot in our data app script, the line plot displays the close stock price of each of the Big Four banks, updated daily.  
 
- yfinance Github: https://github.com/ranaroussi/yfinance/tree/main
+ yfinance Github: https://github.com/ranaroussi/yfinance/tree/main<br>
+Yahoo! Finance: https://finance.yahoo.com/
+ 
  
 ## Analysis of Consolidated Assets
 
