@@ -39,7 +39,7 @@ The document *"automated_data_pipeline.py"* automates the process of
 The data pipleline is set to be executed every quarter, effectively automating the updating of the plots in the "Consolidated Assets" tab of the data app.
 
 ### Data for mergers and acquisitions: <br>
-<img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/3ae85dea-dd32-4c3b-b6cc-7d58a99b8c72" width="50%" alt="data_source">
+Text right here: <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/3ae85dea-dd32-4c3b-b6cc-7d58a99b8c72" width="50%" alt="data_source">
 
 The development of the network plot was possible through data from the National Information Center, which is managed by the Federal Reserve.<br>
 Link: https://www.ffiec.gov/npw/FinancialReport/DataDownload
