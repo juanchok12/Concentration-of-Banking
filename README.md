@@ -49,7 +49,8 @@ Two datasets were utilized to construct a network plot of the Big Four banks:
       * Predecessor Bank ID (RSSD)
       * Successor Bank ID (RSSD)
       * Date of transformation (the date in which the merger/acquisition occurred)
- * Attributes.csv: Since the "Relationships.csv" file only has a numerical identifier as an ID for banks, it was necessary to cross reference/map the "Attributes.csv" file (which contains both the numerical identifier and its legal name) to obtain the legal name of the financial entities of interest.: <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/3ae85dea-dd32-4c3b-b6cc-7d58a99b8c72" width="50%" alt="data_source">
+ * Attributes.csv: Since the "Relationships.csv" file only has a numerical identifier as an ID for banks, it was necessary to cross reference/map the "Attributes.csv" file (which contains both the numerical identifier and its legal name) to obtain the legal name of the financial entities of interest.
+fjdshfksdhdsjkfhsdkfhsdkfhsdkfhsdfkjhskfhsdkhfsdkhfksdhkjfdhsfkjhsdkfjhsdjfhskdhfkdsfkdshfkjdhsfksdkfjhsdkdkshfkdfhsdkhfskdhfskdfksdhfsdkhfkshdkhfdskhfkdsdkhdkfjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjh: <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/3ae85dea-dd32-4c3b-b6cc-7d58a99b8c72" width="50%" alt="data_source">
 
  ### Data for the phylogenetic tree tab
  ![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/48bc60f6-adca-4804-8a87-8a06dd82141a)
