@@ -16,15 +16,9 @@ The *concentration of banking* is the tendency of capital centralizing more and 
 ## Hypothesis
 Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 & 7 bank groups) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several metrics of centralization of banking). This hypothesis is furthered by the acquisition and merger behavior of the biggest four commercial banks over last couple of decades. 
 
-## Data Product
-
-
-
-
 ## Data Sources
 **Data for consolidated assets:** <br>
 ![Data pipeline for consolidated assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7f6f5806-15c6-4b34-a9d2-b799cd4355c6)
-
 
 The Board of Governors of the Federal Reserve System publishes quarterly tables with the following important points for our research: 
  * Name of bank
@@ -35,13 +29,14 @@ Link: https://www.federalreserve.gov/releases/lbr/
 
 <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="50%" alt="data_source">
 
-The document "automated_data_pipeline.py" automates the process of 
+The document *"automated_data_pipeline.py"* automates the process of 
 *	Web scraping each quarterly link 
 *	Transforming the data from HTML to CSV documents so that we can manipulate the data.
 *	Data cleaning: standardization of column headers and data, adding columns that calculate percentages. 
 *	Data wrangling: Setting master data frames, pivoting, concatenating dataframes that develop plot ready data frames.
 *	Uploads data frames into Github repository.
 
+Data pipleline is set to be executed every quarter, effectively automating the updating of the plots in the "Consolidated Assets" tab of the data app.
 
 **Data for mergers and acquisitions:** <br>
 Two datasets were utilized to construct a viable network plot model of the biggest 4 commercial banks in the U.S. (here referred to as the Big Four):
