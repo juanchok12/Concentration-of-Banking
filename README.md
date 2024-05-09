@@ -17,7 +17,7 @@ The *concentration of banking* is the tendency of capital centralizing more and 
 Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 & 7 bank groups) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several metrics of centralization of banking). This hypothesis is furthered by the acquisition and merger behavior of the biggest four commercial banks over last couple of decades. 
 
 ## Data Sources
-**Data for consolidated assets:** <br>
+### Data for consolidated assets: <br>
 ![Data pipeline for consolidated assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7f6f5806-15c6-4b34-a9d2-b799cd4355c6)
 
 The Board of Governors of the Federal Reserve System publishes quarterly tables with the following important points for our research: 
@@ -38,7 +38,7 @@ The document *"automated_data_pipeline.py"* automates the process of
 
 Data pipleline is set to be executed every quarter, effectively automating the updating of the plots in the "Consolidated Assets" tab of the data app.
 
-**Data for mergers and acquisitions:** <br>
+### Data for mergers and acquisitions: <br>
 Two datasets were utilized to construct a viable network plot model of the biggest 4 commercial banks in the U.S. (here referred to as the Big Four):
 
  * Relationships.csv: important data points were...
