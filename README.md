@@ -36,7 +36,7 @@ The document *"automated_data_pipeline.py"* automates the process of
 *	Data wrangling: Setting master data frames, pivoting, concatenating dataframes that develop plot ready data frames.
 *	Uploads data frames into Github repository.
 
-Data pipleline is set to be executed every quarter, effectively automating the updating of the plots in the "Consolidated Assets" tab of the data app.
+The data pipleline is set to be executed every quarter, effectively automating the updating of the plots in the "Consolidated Assets" tab of the data app.
 
 ### Data for mergers and acquisitions: <br>
 Two datasets were utilized to construct a viable network plot model of the biggest 4 commercial banks in the U.S. (here referred to as the Big Four):
