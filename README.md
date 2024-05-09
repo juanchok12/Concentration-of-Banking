@@ -56,6 +56,8 @@ Both were obtained from the National Information Center.<br>
 The data was compiledcorporate research (e.g. looking into business news) to find the historical merging & acquisition history of the Big Four banks. The reason I added phylogenetic tree in addition to the network plot of acquisitions and mergers is because the data shared by the NIC has a lot of data points on the branch and subsidiary consolidations. Additionally, I found that that categorization of the transformations in the NIC database (e.g. whether it was a purchase or a merger) was not optimally accurate. Therefore, I wanted to have a summarized version of the recent historical activity in the merging & acquisition of the Big Four banks, that gives the additional data point of market value/cost of the merging/acquisition.  
 
  Aside from the phylogenetic tree we have the “Giga Banks Ownership on the Big Four” table and the “Historical Share Price” line plot covering the other half of the tab. Both items extract their data from Yahoo! Finance through the yfinance API. The “Giga Banks Ownership on the Big Four” table represents the share ownership of the biggest asset management firms in the U.S. (AKA the Giga Banks) on the Big Four banks, to demonstrate another layer on the concentration of banking. Through a bot in our data app script, the line plot displays the close stock price of each of the Big Four banks, updated daily.  
+
+ yfinance Github: https://github.com/ranaroussi/yfinance/tree/main
  
 ## Analysis of Consolidated Assets
 
