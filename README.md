@@ -39,16 +39,16 @@ The document *"automated_data_pipeline.py"* automates the process of
 The data pipleline is set to be executed every quarter, effectively automating the updating of the plots in the "Consolidated Assets" tab of the data app.
 
 ### Data for mergers and acquisitions: <br>
-Two datasets were utilized to construct a viable network plot model of the biggest 4 commercial banks in the U.S. (here referred to as the Big Four):
+The development of the network plot was possible through data from the National Information Center, which is managed by the Federal Reserve. 
+Link: https://www.ffiec.gov/npw/FinancialReport/DataDownload
 
+Two datasets were utilized to construct a network plot of the Big Four banks:
  * Relationships.csv: important data points were...
       * Predecessor Bank ID (RSSD)
       * Successor Bank ID (RSSD)
-      * Date of transformation (the date in which the merger or acquisition occurred)
- * Attributes.csv: Since the "Relationships.csv" file only has RSSD as identifiers for banks, it was necessary to cross reference the "Attributes.csv" file to obtain the legal name of the financial entities of interest.
+      * Date of transformation (the date in which the merger/acquisition occurred)
+ * Attributes.csv: Since the "Relationships.csv" file only has a numerical identifier as an ID for banks, it was necessary to cross reference/map the "Attributes.csv" file (which contains both the numerical identifier and its legal name) to obtain the legal name of the financial entities of interest.<br>
 
-Both were obtained from the National Information Center.<br>
- "Relationships.csv" & "Attributes.csv". National Information Center. Federal Financial Instututions Examination Council. Feb. 5, 2024. [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload).
 
  ### Data for the phylogenetic tree tab
  ![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/48bc60f6-adca-4804-8a87-8a06dd82141a)
