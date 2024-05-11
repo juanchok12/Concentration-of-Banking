@@ -12,7 +12,8 @@ The *concentration of banking* is the tendency of capital centralizing more and 
   
 * What do the trends in mergers and acquisitions of the biggest four commercial banks tell us about the monopolization/decentralization of banking in the U.S.?
 
-[Watch the video here]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=jwuucWcmVy8))
+[Watch the video here](https://www.youtube.com/watch?v=jwuucWcmVy8)
+
 
 
 ## Hypothesis
