@@ -110,8 +110,8 @@ Used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) Python p
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e105c8b3-ecef-4037-a3f2-97dfca2e49dd
 
 Used [scikit learn]( https://scikit-learn.org/stable/index.html) linear model machine learning module to create the linear regression line and model, which is updated each time the application receives data from the automated data pipeline. 
-![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/71801b67-8850-4907-8564-c683c0ad9d8a)
 
+![scatter_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/c721feae-a5f1-4d5c-b2f1-ef9344f9dc32)
 
 
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
