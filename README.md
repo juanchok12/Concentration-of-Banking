@@ -78,8 +78,9 @@ Yahoo! Finance: https://finance.yahoo.com/
 
 ![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ee518a55-29b2-49c5-a463-2dfe789c1d09)
 
-
-
+### Metrics for the Consolidated Assets of the Big Four
+I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (size based on consolidated assets).
+https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417-e0b7-4aa0-8b78-53cbbcda23b8
 
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
    
@@ -92,10 +93,8 @@ Yahoo! Finance: https://finance.yahoo.com/
 ![HTML to CSV to DF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a4d7549b-a649-4b3c-b6da-bbbd2312dd91)
 
 
-### b) Animated pie chart: 
-I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (size based on consolidated assets).
 
-https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417-e0b7-4aa0-8b78-53cbbcda23b8
+
 
 ### c) Interactive line plots: 
 I used Plotly's line plots to observe the two decade trend in the accumulation of consolidated assets between the biggest 7 banks in trillions of dollars. I also grouped all the large commercial banks into one group and the 7 biggest banks into another group to compare their consolidated assets over time (second GIF).
