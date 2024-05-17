@@ -81,13 +81,8 @@ Yahoo! Finance: https://finance.yahoo.com/
 ### Metrics for the Consolidated Assets of the Big Four
 I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (size based on consolidated assets).
 <div>
-https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/28c33417-e0b7-4aa0-8b78-53cbbcda23b8
-
-
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e105c8b3-ecef-4037-a3f2-97dfca2e49dd
-
-
 
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
    
