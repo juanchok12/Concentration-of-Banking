@@ -64,11 +64,13 @@ The Jupyter Notebook *network_MnA.ipynb* is file in the "script" folder that cle
  ### Data for the phylogenetic tree tab
  ![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/48bc60f6-adca-4804-8a87-8a06dd82141a)
 
-The data was compiled through corporate research (e.g. looking into business news) to find the historical merging & acquisition history of the Big Four banks. The reason I added phylogenetic tree in addition to the network plot of acquisitions and mergers is because the data shared by the NIC has a lot of data points on the branch and subsidiary consolidations. Additionally, I found that that categorization of the transformations in the NIC database (e.g. whether it was a purchase or a merger) was not optimally accurate. Therefore, I wanted to have a summarized version of the recent historical activity in the merging & acquisition of the Big Four banks, that gives the additional data point of market value/cost of the merging/acquisition.  
+The data on the phylogenetic tree was compiled through corporate research (e.g. looking into business news) to find the historical merging & acquisition history of the Big Four banks. The reason I added phylogenetic tree in addition to the network plot of acquisitions and mergers is because I wanted to have a summarized version of the recent and most important historical activity in the merging & acquisition of the Big Four banks, that gives the additional data point of market value/cost of the merging/acquisition.  
 
- Aside from the phylogenetic tree we have the “Giga Banks Ownership on the Big Four” table and the “Historical Share Price” line plot covering the other half of the tab. Both items extract their data from Yahoo! Finance through the yfinance API. The “Giga Banks Ownership on the Big Four” table represents the share ownership of the biggest asset management firms in the U.S. (AKA the Giga Banks) on the Big Four banks, to demonstrate another layer on the concentration of banking. The data for the Giga Banks table was processes through the *'giga_banks.py'* file under the "script" folder repository. Through a bot in our data app script, the line plot displays the close stock price of each of the Big Four banks, updated daily.  
+Aside from the phylogenetic tree we have the “Giga Banks Ownership on the Big Four” table and the “Historical Share Price” line plot covering the other half of the tab. Both items extract their data from Yahoo! Finance through the yfinance API. The “Giga Banks Ownership on the Big Four” table represents the share ownership of the biggest asset management firms in the U.S. (AKA the Giga Banks) on the Big Four banks, which demonstrate another layer on the concentration of banking. The data for the Giga Banks table was processes through the *'giga_banks.py'* file under the "script" folder repository. 
 
- yfinance Github: https://github.com/ranaroussi/yfinance/tree/main<br>
+The "Historical Share Price" line plot is collected from the yfinance API through a bot in our data app script. The line plot displays the close stock price of each of the Big Four banks, updated daily.  
+
+yfinance Github: https://github.com/ranaroussi/yfinance/tree/main<br>
 Yahoo! Finance: https://finance.yahoo.com/
  
  
