@@ -102,7 +102,7 @@ Used [NetworkX](https://networkx.org/) Python library in to develop the network 
 
 
 ### Metrics for the consolidated assets of the Big Four
-I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (size based on consolidated assets).
+I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) Python package to develop the animated pie race that displays the market share of large commerical banks based on their dominance of consoldiated assets. The script that developed the pie chart race is *"Animated Pie Chart for Banks.py"* under the "script" folder.
 <div>
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e105c8b3-ecef-4037-a3f2-97dfca2e49dd
