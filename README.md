@@ -8,7 +8,7 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8
     a. [Data for consolidated assets](#3)<br>
     b. [Changing the accouting method and transformations codes](#4)<br>
     c. [Data for the phylogenetic tree, ownership table, and historical stock data](#5)<br>
-2. [Data Wrangling](#3)<br>
+2. [Data App](#3)<br>
     a. [Chase dataframe development](#4)<br>
     b. [Bank of America dataframe development](#5)<br>
     c. [Wells Fargo dataframe development](#6)<br>
@@ -36,7 +36,7 @@ The *concentration of banking* is the tendency of capital centralizing more and 
 Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 & 7 bank groups) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several metrics of centralization of banking). This hypothesis is furthered by the acquisition and merger behavior of the biggest four commercial banks over last couple of decades. 
 
 ## Data Sources <a id="2"></a>
-### Data for consolidated assets: <br>
+### Data for consolidated assets<a id="3"></a> <br>
 ![consolidated_assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/f051a9b2-7175-484a-b752-95514c1811af)
 
 The Board of Governors of the Federal Reserve System publishes quarterly tables with the following important points for our research: 
@@ -57,7 +57,7 @@ The document *"automated_data_pipeline.py"* in the "script" folder automates the
 
 The data pipleline is set to be executed every quarter, effectively automating the updating of the plots in the "Consolidated Assets" tab of the data app.
 
-### Data for mergers and acquisitions: <br>
+### Data for mergers and acquisitions<a id="4"></a> <br>
 ![network for README](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/2019ab0b-4e68-47c3-ad16-b79acfbcdc3d)
 
 The development of the network plot was possible through data from the National Information Center, which is managed by the Federal Reserve.<br>
@@ -81,7 +81,7 @@ The Jupyter Notebook *network_MnA.ipynb* is file in the "script" folder that cle
 *	Testing the data frames developed from the raw data by ploting the network graph. 
 
 
- ### Data for the phylogenetic tree, ownership table, and historical stock data
+ ### Data for the phylogenetic tree, ownership table, and historical stock data <a id="5"></a>
  ![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/48bc60f6-adca-4804-8a87-8a06dd82141a)
 
 The data on the phylogenetic tree was compiled through corporate research (e.g. looking into business news) to find the historical merging & acquisition history of the Big Four banks. The reason I added phylogenetic tree in addition to the network plot of acquisitions and mergers is because I wanted to have a summarized version of the recent and most important historical activity in the merging & acquisition of the Big Four banks, that gives the additional data point of market value/cost of the merging/acquisition.  
