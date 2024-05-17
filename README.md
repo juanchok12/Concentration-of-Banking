@@ -47,10 +47,8 @@ Three datasets were utilized to construct a network plot of the Big Four banks:
  * Relationships.csv: important data points were...
       * Predecessor Bank ID (RSSD)
       * Successor Bank ID (RSSD)
-      * Date of transformation (the date in which the merger/acquisition occurred)[Link]([https://www.ffiec.gov/NPW](https://www.ffiec.gov/npw/FinancialReport/DataDownload
-))
- * Attributes.csv: Since the "Relationships.csv" file only has a numerical identifier as an ID for banks, it was necessary to cross reference/map the "Attributes.csv" file (which contains both the numerical identifier and its legal name) to obtain the legal name of the financial entities of interest.[Link]([https://www.ffiec.gov/NPW](https://www.ffiec.gov/npw/FinancialReport/DataDownload
-))
+      * Date of transformation (the date in which the merger/acquisition occurred)[Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload)
+ * Attributes.csv: Since the "Relationships.csv" file only has a numerical identifier as an ID for banks, it was necessary to cross reference/map the "Attributes.csv" file (which contains both the numerical identifier and its legal name) to obtain the legal name of the financial entities of interest.[Link]( https://www.ffiec.gov/npw/FinancialReport/DataDownload)
  * "history.csv". Each one of the Big Four banks has a history csv file that can be found by entering the RSSD number in the National Information Center search engine. "history.csv" displays the history of bank, uncluding mergers and acquistions. Since not all RSSD numbers are identifiable through the "Attributes.csv" file, we can rely on the "history.csv" to fill the gaps on the missing pieces. [Link](https://www.ffiec.gov/NPW)
 
  ### Data for the phylogenetic tree tab
