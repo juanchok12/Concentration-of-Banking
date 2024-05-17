@@ -29,10 +29,10 @@ The *concentration of banking* is the tendency of capital centralizing more and 
   
 * What do the trends in mergers and acquisitions of the biggest four commercial banks tell us about the monopolization/decentralization of banking in the U.S.?
 
-## Hypothesis
+## Hypothesis <a id="1"></a>
 Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 & 7 bank groups) from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of banking (i.e. one of the several metrics of centralization of banking). This hypothesis is furthered by the acquisition and merger behavior of the biggest four commercial banks over last couple of decades. 
 
-## Data Sources
+## Data Sources <a id="2"></a>
 ### Data for consolidated assets: <br>
 ![consolidated_assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/f051a9b2-7175-484a-b752-95514c1811af)
 
@@ -78,7 +78,7 @@ The Jupyter Notebook *network_MnA.ipynb* is file in the "script" folder that cle
 *	Testing the data frames developed from the raw data by ploting the network graph. 
 
 
- ### Data for the phylogenetic tree tab
+ ### Data for the phylogenetic tree, ownership table, and historical stock data
  ![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/48bc60f6-adca-4804-8a87-8a06dd82141a)
 
 The data on the phylogenetic tree was compiled through corporate research (e.g. looking into business news) to find the historical merging & acquisition history of the Big Four banks. The reason I added phylogenetic tree in addition to the network plot of acquisitions and mergers is because I wanted to have a summarized version of the recent and most important historical activity in the merging & acquisition of the Big Four banks, that gives the additional data point of market value/cost of the merging/acquisition.  
