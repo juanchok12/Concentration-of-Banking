@@ -3,8 +3,11 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8
 
 ## Table of Contents
 1. [Goal & Description](#0)<br>
-    a. [Adding missing legal names](#1)<br>
-    b. [Changing the accouting method and transformations codes](#2)<br>
+2. [Hypothesis](#1)<br>
+3. [Data Sources](#2)<br>
+    a. [Data for consolidated assets](#3)<br>
+    b. [Changing the accouting method and transformations codes](#4)<br>
+    c. [Data for the phylogenetic tree, ownership table, and historical stock data](#5)<br>
 2. [Data Wrangling](#3)<br>
     a. [Chase dataframe development](#4)<br>
     b. [Bank of America dataframe development](#5)<br>
