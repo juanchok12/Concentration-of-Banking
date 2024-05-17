@@ -9,14 +9,13 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8
     b. [Data for mergers and acquisitions](#4)<br>
     c. [Data for the phylogenetic tree, ownership table, and historical stock data](#5)<br>
 2. [Data App](#6)<br>
-    a. [Chase dataframe development](#7)<br>
-    b. [Bank of America dataframe development](#8)<br>
+    a. [Network plots of acquisitions and mergers for the Big Four](#7)<br>
+    b. [Metrics for the consolidated assets of the Big Four](#8)<br>
     c. [Wells Fargo dataframe development](#9)<br>
 3. [M&A Network Plot Development](#8) <br>
     a. [Network plot for Chase](#9)<br>
-    b. [Network plot for Bank of America](#10)<br>
-    c. [Network plot for Wells Fargo](#11)<br>
-    d. [Network plot for Citibank](#12)<br>
+    b. [Metrics for the consolidated assets of the Big Four](#10)<br>
+    
 
 
 ## Goal & Description <a id="0"></a>
@@ -93,16 +92,16 @@ yfinance Github: https://github.com/ranaroussi/yfinance/tree/main<br>
 Yahoo! Finance: https://finance.yahoo.com/
  
  
-## Data Application
-### Network plots of acquisitions and mergers for the Big Four
+## Data Application <a id="6"></a> <br>
+### Network plots of acquisitions and mergers for the Big Four <a id="7"></a> <br>
 Used [NetworkX](https://networkx.org/) Python library in to develop the network plot. 
 <div>
 
 ![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/c265ad89-8432-4a58-bc07-e619205d1fcf)
 
 
-### Metrics for the consolidated assets of the Big Four
-I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) Python package to develop the animated pie race that displays the market share of large commerical banks based on their dominance of consoldiated assets. The script that developed the pie chart race is *"Animated Pie Chart for Banks.py"* under the "script" folder.
+### Metrics for the consolidated assets of the Big Four <a id="8"></a> <br>
+Used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) Python package to develop the animated pie race that displays the market share of large commerical banks based on their dominance of consoldiated assets. The script that developed the pie chart race is *"Animated Pie Chart for Banks.py"* under the "script" folder.
 <div>
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e105c8b3-ecef-4037-a3f2-97dfca2e49dd
