@@ -1,5 +1,5 @@
 # Concentration-of-Banking  💰 🏦
-![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/3545f01a-c6d1-480d-a92b-f8d827faa5ea) 
+
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8-56b7-4b71-961a-b474b36d2a6d
 
 ## Table of Contents
