@@ -28,7 +28,7 @@ Link: https://www.federalreserve.gov/releases/lbr/
 
 <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/6f25c9ed-cfc7-4301-9d70-e2940b5dd2a7" width="50%" alt="data_source">
 
-The document *"automated_data_pipeline.py"* automates the process of 
+The document *"automated_data_pipeline.py"* in the "script" folder automates the process of 
 *	Web scraping each quarterly link 
 *	Transforming the data from HTML to CSV documents so that we can manipulate the data.
 *	Data cleaning: standardization of column headers and data, adding columns that calculate percentages. 
@@ -42,7 +42,6 @@ The data pipleline is set to be executed every quarter, effectively automating t
 
 The development of the network plot was possible through data from the National Information Center, which is managed by the Federal Reserve.<br>
 
-
 Three datasets were utilized to construct a network plot of the Big Four banks:
  * Relationships.csv: important data points were...
       * Predecessor Bank ID (RSSD).
@@ -51,7 +50,7 @@ Three datasets were utilized to construct a network plot of the Big Four banks:
  * Attributes.csv: Since the "Relationships.csv" file only has a numerical identifier as an ID for banks, it was necessary to cross reference/map the "Attributes.csv" file (which contains both the numerical identifier and its legal name) to obtain the legal name of the financial entities of interest. [Link]( https://www.ffiec.gov/npw/FinancialReport/DataDownload)
  * "history.csv". Each one of the Big Four banks has a history csv file that can be found by entering the RSSD number in the National Information Center search engine. "history.csv" displays the history of bank, uncluding mergers and acquistions. Since not all RSSD numbers are identifiable through the "Attributes.csv" file, we can rely on the "history.csv" to fill the gaps on the missing pieces. [Link](https://www.ffiec.gov/NPW)
 
-The Jupyter Notebook *network_MnA.ipynb* is file that cleans, wrangles, and plots the data by carrying the following tasks:
+The Jupyter Notebook *network_MnA.ipynb* is file in the "script" folder that cleans, wrangles, and plots the data by carrying the following tasks:
 *	Adding missing values, such as the legal names of the entities by concatenating “Tranformations.csv”, “Attributes.csv”, “history.csv” files” to develop a data frame that has the necessary data points...
     *	Date of transformation (merger, acquisition, etc).
     *	Legal name of entity
@@ -67,7 +66,7 @@ The Jupyter Notebook *network_MnA.ipynb* is file that cleans, wrangles, and plot
 
 The data was compiled through corporate research (e.g. looking into business news) to find the historical merging & acquisition history of the Big Four banks. The reason I added phylogenetic tree in addition to the network plot of acquisitions and mergers is because the data shared by the NIC has a lot of data points on the branch and subsidiary consolidations. Additionally, I found that that categorization of the transformations in the NIC database (e.g. whether it was a purchase or a merger) was not optimally accurate. Therefore, I wanted to have a summarized version of the recent historical activity in the merging & acquisition of the Big Four banks, that gives the additional data point of market value/cost of the merging/acquisition.  
 
- Aside from the phylogenetic tree we have the “Giga Banks Ownership on the Big Four” table and the “Historical Share Price” line plot covering the other half of the tab. Both items extract their data from Yahoo! Finance through the yfinance API. The “Giga Banks Ownership on the Big Four” table represents the share ownership of the biggest asset management firms in the U.S. (AKA the Giga Banks) on the Big Four banks, to demonstrate another layer on the concentration of banking. Through a bot in our data app script, the line plot displays the close stock price of each of the Big Four banks, updated daily.  
+ Aside from the phylogenetic tree we have the “Giga Banks Ownership on the Big Four” table and the “Historical Share Price” line plot covering the other half of the tab. Both items extract their data from Yahoo! Finance through the yfinance API. The “Giga Banks Ownership on the Big Four” table represents the share ownership of the biggest asset management firms in the U.S. (AKA the Giga Banks) on the Big Four banks, to demonstrate another layer on the concentration of banking. The data for the Giga Banks table was processes through the *'giga_banks.py'* file under the "script" folder repository. Through a bot in our data app script, the line plot displays the close stock price of each of the Big Four banks, updated daily.  
 
  yfinance Github: https://github.com/ranaroussi/yfinance/tree/main<br>
 Yahoo! Finance: https://finance.yahoo.com/
