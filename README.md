@@ -1,4 +1,4 @@
-# Concentration-of-Banking  💰 🏦 
+![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/3545f01a-c6d1-480d-a92b-f8d827faa5ea)# Concentration-of-Banking  💰 🏦 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8-56b7-4b71-961a-b474b36d2a6d
 
 ## Table of Contents
@@ -100,12 +100,17 @@ Used [NetworkX](https://networkx.org/) Python library in to develop the network 
 ![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/c265ad89-8432-4a58-bc07-e619205d1fcf)
 
 
+
+
+
 ### Metrics for the consolidated assets of the Big Four <a id="8"></a> <br>
 Used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) Python package to develop the animated pie race that displays the market share of large commerical banks based on their dominance of consoldiated assets. The script that developed the pie chart race is *"Animated Pie Chart for Banks.py"* under the "script" folder.
 <div>
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e105c8b3-ecef-4037-a3f2-97dfca2e49dd
 
+Used [scikit learn]( https://scikit-learn.org/stable/index.html) linear model machine learning module to create the linear regression line and model, which is updated each time the application receives data from the automated data pipeline. 
+![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/71801b67-8850-4907-8564-c683c0ad9d8a)
 
 
 
