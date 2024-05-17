@@ -97,7 +97,9 @@ Yahoo! Finance: https://finance.yahoo.com/
 ### Network plots of acquisitions and mergers for the Big Four
 Used [NetworkX](https://networkx.org/) Python library in to develop the network plot. 
 <div>
-![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ee518a55-29b2-49c5-a463-2dfe789c1d09)
+
+![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/c265ad89-8432-4a58-bc07-e619205d1fcf)
+
 
 ### Metrics for the consolidated assets of the Big Four
 I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (size based on consolidated assets).
