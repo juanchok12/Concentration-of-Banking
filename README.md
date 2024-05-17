@@ -8,11 +8,10 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8
     a. [Data for consolidated assets](#3)<br>
     b. [Data for mergers and acquisitions](#4)<br>
     c. [Data for the phylogenetic tree, ownership table, and historical stock data](#5)<br>
-2. [Data App](#3)<br>
-    a. [Chase dataframe development](#4)<br>
-    b. [Bank of America dataframe development](#5)<br>
-    c. [Wells Fargo dataframe development](#6)<br>
-    d. [Citibank dataframe development](#7)<br>
+2. [Data App](#6)<br>
+    a. [Chase dataframe development](#7)<br>
+    b. [Bank of America dataframe development](#8)<br>
+    c. [Wells Fargo dataframe development](#9)<br>
 3. [M&A Network Plot Development](#8) <br>
     a. [Network plot for Chase](#9)<br>
     b. [Network plot for Bank of America](#10)<br>
@@ -95,12 +94,12 @@ Yahoo! Finance: https://finance.yahoo.com/
  
  
 ## Data Application
-### Network Plot of Acquisitions and Assets of the Big Four
+### Network plots of acquisitions and mergers for the Big Four
 <div>
 
 ![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ee518a55-29b2-49c5-a463-2dfe789c1d09)
 
-### Metrics for the Consolidated Assets of the Big Four
+### Metrics for the consolidated assets of the Big Four
 I used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) package to display the changes in the percentage dominance of the consolidated assets of the biggest 7 banks (size based on consolidated assets).
 <div>
 
