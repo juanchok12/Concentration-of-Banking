@@ -76,7 +76,8 @@ Yahoo! Finance: https://finance.yahoo.com/
 ### Network Plot of Acquisitions and Assets of the Big Four
 <div>
 
-![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/44218c89-f81e-4326-aa9b-9a7916697e3b)
+![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ee518a55-29b2-49c5-a463-2dfe789c1d09)
+
 
 
 
