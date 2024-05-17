@@ -75,7 +75,9 @@ Yahoo! Finance: https://finance.yahoo.com/
 ## Data Application
 ### Network Plot of Acquisitions and Assets of the Big Four
 <div>
-   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a022299b-875c-4046-83d8-b7d0aef3d66b" width="80%">
+![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/48b8621b-1225-4d7a-bfaf-7fd00c12ab70)
+
+
 
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
    
