@@ -72,7 +72,10 @@ The data was compiled through corporate research (e.g. looking into business new
 Yahoo! Finance: https://finance.yahoo.com/
  
  
-## Analysis of Consolidated Assets
+## Data Application
+### Network Plot of Acquisitions and Assets of the Big Four
+<div>
+   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a022299b-875c-4046-83d8-b7d0aef3d66b" width="80%">
 
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
    
@@ -118,8 +121,7 @@ On top of this, I created a list of registered transformations in the 'Transform
 ### b) Network plotting the acquisitions and mergers of the Big Four:
 In the same Jupyter Notebook, I create the network plots that I transposed into the Dash app. The main idea is allow the user to see the historical pattern of mergers and acquisitions of the Big Four from 1960's (the earliest time for which the dataset has available data) up until Feb. 2024. 
 
-<div>
-   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a022299b-875c-4046-83d8-b7d0aef3d66b" width="80%">
+
 
 ### c) Dash app of network plots with filters
 The final product is a Dash app that allows the user to filter the data points based on the following categories:
