@@ -17,7 +17,7 @@ Given a trend in the increase in the amount of consolidated assets by large comm
 
 ## Data Sources
 ### Data for consolidated assets: <br>
-![Data pipeline for consolidated assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7f6f5806-15c6-4b34-a9d2-b799cd4355c6)
+![consolidated_assets](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/f051a9b2-7175-484a-b752-95514c1811af)
 
 The Board of Governors of the Federal Reserve System publishes quarterly tables with the following important points for our research: 
  * Name of bank
