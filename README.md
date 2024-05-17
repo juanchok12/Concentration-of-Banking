@@ -1,6 +1,23 @@
 # Concentration-of-Banking  💰 🏦 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8-56b7-4b71-961a-b474b36d2a6d
-## Goal & Description
+
+## Table of Contents
+1. [Goal & Description](#0)<br>
+    a. [Adding missing legal names](#1)<br>
+    b. [Changing the accouting method and transformations codes](#2)<br>
+2. [Data Wrangling](#3)<br>
+    a. [Chase dataframe development](#4)<br>
+    b. [Bank of America dataframe development](#5)<br>
+    c. [Wells Fargo dataframe development](#6)<br>
+    d. [Citibank dataframe development](#7)<br>
+3. [M&A Network Plot Development](#8) <br>
+    a. [Network plot for Chase](#9)<br>
+    b. [Network plot for Bank of America](#10)<br>
+    c. [Network plot for Wells Fargo](#11)<br>
+    d. [Network plot for Citibank](#12)<br>
+
+
+## Goal & Description <a id="0"></a>
 Quantifying the concentration/decentralization/equilibrium of banking as a property/process/phenomena of in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging & acquisition activies by large commercial banks. 
 
 The *concentration of banking* is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield enormous power over production, investment, and commerce. It subordinates the separated regional economies of a society into a singularity. 
