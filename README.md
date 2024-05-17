@@ -95,8 +95,8 @@ Yahoo! Finance: https://finance.yahoo.com/
  
 ## Data Application
 ### Network plots of acquisitions and mergers for the Big Four
+Used [NetworkX](https://networkx.org/) Python library in to develop the network plot. 
 <div>
-
 ![network_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ee518a55-29b2-49c5-a463-2dfe789c1d09)
 
 ### Metrics for the consolidated assets of the Big Four
