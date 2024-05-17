@@ -107,7 +107,6 @@ Used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) Python p
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e105c8b3-ecef-4037-a3f2-97dfca2e49dd
 
 
-![scatter_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e4199681-b454-460e-b9df-ace221b852c0)
 
 
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
