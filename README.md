@@ -95,6 +95,7 @@ Yahoo! Finance: https://finance.yahoo.com/
  
  
 ## Data Application <a id="6"></a> <br>
+I used Plotly Dash as the python framework to create the interactive web application. The data application itself is hosted by AWS Elastic Beanstalk.
 ### Network plots of acquisitions and mergers for the Big Four <a id="7"></a> <br>
 Used [NetworkX](https://networkx.org/) Python library in to develop the network plot. 
 <div>
@@ -114,6 +115,7 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e105c8b3
 Used [scikit learn]( https://scikit-learn.org/stable/index.html) linear model machine learning module to create the linear regression line and model, which is updated each time the application receives data from the automated data pipeline. This scatter plot, the treemap, the line plot, and including the network plot use Plotly to add interactivity to the graphing of the data. 
 
 ![scatter_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/c721feae-a5f1-4d5c-b2f1-ef9344f9dc32)
+
 
 
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
