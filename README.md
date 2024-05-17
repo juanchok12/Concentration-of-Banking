@@ -43,12 +43,13 @@ The data pipleline is set to be executed every quarter, effectively automating t
 The development of the network plot was possible through data from the National Information Center, which is managed by the Federal Reserve.<br>
 Link: https://www.ffiec.gov/npw/FinancialReport/DataDownload
 
-Two datasets were utilized to construct a network plot of the Big Four banks:
+Three datasets were utilized to construct a network plot of the Big Four banks:
  * Relationships.csv: important data points were...
       * Predecessor Bank ID (RSSD)
       * Successor Bank ID (RSSD)
       * Date of transformation (the date in which the merger/acquisition occurred)
  * Attributes.csv: Since the "Relationships.csv" file only has a numerical identifier as an ID for banks, it was necessary to cross reference/map the "Attributes.csv" file (which contains both the numerical identifier and its legal name) to obtain the legal name of the financial entities of interest.
+ * "history.csv". Each one of the Big Four banks has a history csv file that can be found by entering the RSSD number in the National Information Center search engine. [Link](https://www.ffiec.gov/NPW)
 
  ### Data for the phylogenetic tree tab
  ![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/48bc60f6-adca-4804-8a87-8a06dd82141a)
