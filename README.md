@@ -106,6 +106,10 @@ Used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) Python p
 
 https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/e105c8b3-ecef-4037-a3f2-97dfca2e49dd
 
+<div>
+![scatter_plot](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/0dc8d692-a2fe-4d4b-a313-5ec99a4062dd)
+
+
 ### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
    
    1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables, downloaded the tables into HTML files and transformed these files into CSV files. 
