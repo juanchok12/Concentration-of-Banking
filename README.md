@@ -121,6 +121,3 @@ Used [Highcharts](https://www.highcharts.com/docs/chart-and-series-types/treegra
 
 ![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/4b90d849-9ff1-43ab-981b-c05464740999)
 
-
-![IMG_6833](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/d442031b-7693-4a1c-8529-f9f58eb99ccd)
-
