@@ -116,69 +116,12 @@ Used [scikit learn]( https://scikit-learn.org/stable/index.html) linear model ma
 
 
 
-### Phylogenetic Tree
+### Phylogenetic Tree <a id="9"></a>
 
 Used [Highcharts](https://www.highcharts.com/docs/chart-and-series-types/treegraph-chart) to develop the phylogenetic tree. The files used to generate the tree can be find under "script>phylogenetic tree script". 
 
 ![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/4b90d849-9ff1-43ab-981b-c05464740999)
 
-  
-   1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables, downloaded the tables into HTML files and transformed these files into CSV files. 
-    
-   2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names or for banks that had merged together in the past).
-    
-   3) Pivot: Combined the different data points per quarter into a master list of all data quarters using Python. From the master database, I then further pivoted other dataframes according to the needs of data visualization.
-
-![HTML to CSV to DF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/a4d7549b-a649-4b3c-b6da-bbbd2312dd91)
-
-
-
-
-
-### c) Interactive line plots: 
-I used Plotly's line plots to observe the two decade trend in the accumulation of consolidated assets between the biggest 7 banks in trillions of dollars. I also grouped all the large commercial banks into one group and the 7 biggest banks into another group to compare their consolidated assets over time (second GIF).
-![Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ccdb13ed-5eed-4155-8c9f-06b2ef443bca)
-
-![Two Line Plot GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/16e11ec1-5cc3-40c4-8e8b-1f6cece471b7)
-
-### d) Interactive treemap: 
-Used Plotly to create an interactive treemap with parent to daughter sub-category relationships.
-
-![Treemap Video GIF](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/98bddfa5-97f8-460e-afce-76c635a37a73)
-
-### e)Statistical inferential analysis-linear regression model: 
-developed a linear regression model on the changes in the amount of consolidated assets held by two bank groups 1) the 7 biggest banks 2) the 4 biggest banks. This outputted a linear function that gives me the rate of change in consolidated asset concentration over time (in the function "B" stands for billions in dollar).
-
-
-## Dash App-Analysis of Network of Acquisitions and Assets of the Big Four
-![Untitled video - Made with Clipchamp (8)](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/774d8614-6cb0-444a-8145-55751b612a2c)
-
-### a) Data wrangling:
-Although the 'Transformations.csv' file gives a detail dataset on the mergers, acquisitions, branch and subsidiary consolidations between financial instutiotions, it does not reference the RSSD (the uniquie bank ID) to its legal name. Therefore, we cross reference the data 'Transformations.csv' with the of the 'Attributes.csv' to gives more detail on the properties of the financial institution, including the legal name. 
-
-<div align="center">
-   <img src="https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/7bda601e-9279-412d-bb26-89bc53f7c3d1" width="60%"></div>
-
-On top of this, I created a list of registered transformations in the 'Transformations.csv' that were branch consolidations. This is because I wanted to give the user the ability to filter out data points that were branch mergers with its national association bank. All of this data wrangling in in the 'big_4_MnA_network_plot_2-6-2024 _Github.ipynb' Jupyter Notebook
-
-### b) Network plotting the acquisitions and mergers of the Big Four:
-In the same Jupyter Notebook, I create the network plots that I transposed into the Dash app. The main idea is allow the user to see the historical pattern of mergers and acquisitions of the Big Four from 1960's (the earliest time for which the dataset has available data) up until Feb. 2024. 
-
-
-
-### c) Dash app of network plots with filters
-The final product is a Dash app that allows the user to filter the data points based on the following categories:
-
-  * Transformation is a branch consolidation.
-  * Accouting method: determining if the transformation was a purchase, acquisition, merger, or its not applicable.
-  * Transformation code:
-      * Charter discontinued
-      * Split
-      * Sale of assets
-      * Charter retained
-      * Failure
-   
-This allows the user to dynamically see the trends based on this preliminary categories.   
 
 ![IMG_6833](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/d442031b-7693-4a1c-8529-f9f58eb99ccd)
 
