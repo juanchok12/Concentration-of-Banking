@@ -13,7 +13,7 @@ https://plotly.com/examples/finance/
 2. [Data App](#6)<br>
     a. [Network plots of acquisitions and mergers for the Big Four](#7)<br>
     b. [Metrics for the consolidated assets of the Big Four](#8)<br>
-    c. [Wells Fargo dataframe development](#9)<br>
+    c. [Phylogenetic Tree](#9)<br>
 3. [M&A Network Plot Development](#8) <br>
     a. [Network plot for Chase](#9)<br>
     b. [Metrics for the consolidated assets of the Big Four](#10)<br>
@@ -104,8 +104,6 @@ Used [NetworkX](https://networkx.org/) Python library in to develop the network 
 
 
 
-
-
 ### Metrics for the consolidated assets of the Big Four <a id="8"></a> <br>
 Used the [SJ Visualizer](https://github.com/SjoerdTilmans/sjvisualizer) Python package to develop the animated pie race that displays the market share of large commerical banks based on their dominance of consoldiated assets. The script that developed the pie chart race is *"Animated Pie Chart for Banks.py"* under the "script" folder.
 <div>
@@ -118,8 +116,10 @@ Used [scikit learn]( https://scikit-learn.org/stable/index.html) linear model ma
 
 
 
-### a) From web scraping HTML tables to CSV files to creating pivot data frames using Python: 
-   
+### Phylogenetic Tree
+
+Used [Highcharts](https://www.highcharts.com/docs/chart-and-series-types/treegraph-chart) to develop the phylogenetic tree. The files used to generate the tree can be find under "script>phylogenetic tree script". 
+  
    1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables, downloaded the tables into HTML files and transformed these files into CSV files. 
     
    2) Transformation: Cleaned data, normalized to standardize columns and banks names (to avoid repeated bank entities but with different names or for banks that had merged together in the past).
