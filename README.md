@@ -119,6 +119,9 @@ Used [scikit learn]( https://scikit-learn.org/stable/index.html) linear model ma
 ### Phylogenetic Tree
 
 Used [Highcharts](https://www.highcharts.com/docs/chart-and-series-types/treegraph-chart) to develop the phylogenetic tree. The files used to generate the tree can be find under "script>phylogenetic tree script". 
+
+![phylogenetic tree](https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/4b90d849-9ff1-43ab-981b-c05464740999)
+
   
    1) Webscraping: Webscraped the Federal Reserve data on large commercial banks by identifying the HTML tables, downloaded the tables into HTML files and transformed these files into CSV files. 
     
