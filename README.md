@@ -1,6 +1,10 @@
 # Concentration-of-Banking  💰 🏦
 
-https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/ad37bbf8-56b7-4b71-961a-b474b36d2a6d
+
+
+https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/280c7270-717e-4f14-aa98-d69b4feb1a07
+
+
 
 https://plotly.com/examples/finance/
 ## Table of Contents
