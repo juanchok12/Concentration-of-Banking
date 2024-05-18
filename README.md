@@ -18,11 +18,6 @@ https://plotly.com/examples/finance/
     a. [Network plots of acquisitions and mergers for the Big Four](#7)<br>
     b. [Metrics for the consolidated assets of the Big Four](#8)<br>
     c. [Phylogenetic Tree](#9)<br>
-3. [M&A Network Plot Development](#8) <br>
-    a. [Network plot for Chase](#9)<br>
-    b. [Metrics for the consolidated assets of the Big Four](#10)<br>
-    
-
 
 ## Goal & Description <a id="0"></a>
 Quantifying the concentration/decentralization/equilibrium of banking as a property/process/phenomena of in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging & acquisition activies by large commercial banks. 
