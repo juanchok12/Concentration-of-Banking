@@ -8,7 +8,7 @@ https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/cde51fa1
 
 
 
-You can find the app in Dash Explore Page:
+You can find the app in the Dash Explore Page:
 https://plotly.com/examples/finance/
 ## Table of Contents
 1. [Goal & Description](#0)<br>
