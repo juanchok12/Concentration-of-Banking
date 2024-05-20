@@ -23,7 +23,14 @@ https://plotly.com/examples/finance/
     c. [Phylogenetic Tree](#9)<br>
 
 ## Goal & Description <a id="0"></a>
-Quantifying the concentration/decentralization/equilibrium of banking as a property/process/phenomena of in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging & acquisition activies by large commercial banks. 
+The goal is to quantitfy the concentration/decentralization/equilibrium of banking as a property/process/phenomena of in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging. We will focus on a juxtaposition between the Big Four banks and the rest of the large commercial banks in the U.S. The Big Four group includes:
+
+* Chase
+* Bank of America
+* Wells Fargo
+* Citibank
+
+Additionally, we can observe the acquisition & merging activies by the Big Four to understand the state of banking in the U.S.
 
 The *concentration of banking* is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield enormous power over production, investment, and commerce. It subordinates the separated regional economies of a society into a singularity. 
 
