@@ -42,7 +42,7 @@ The *concentration of banking* is the tendency of capital centralizing more and 
 * What do the trends in mergers and acquisitions of the biggest four commercial banks tell us about the monopolization/decentralization of banking in the U.S.?
 
 ## Hypothesis <a id="1"></a>
-Given a trend in the increase in the amount of consolidated assets by large commercial banks (specifically, the rate the consolidation on these assets of the biggest 4 bank group, referred in this study as the "Big Four") from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time through the concentration of consolidated assets (i.e. one of the several metrics of centralization of banking). This hypothesis is furthered by the acquisition and merger behavior of the biggest four commercial banks over the last couple of decades. 
+Given a trend in the increase in the amount of consolidated assets held by the Big Four from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time (in this study, we use consolidated assets as only one metric through which we can measure the centralization of banking). This hypothesis is furthered by the acquisition & merger behavior of the biggest four commercial banks over the last couple of decades. 
 
 ## Data Sources <a id="2"></a>
 ### Data for consolidated assets<a id="3"></a> <br>
