@@ -97,7 +97,7 @@ Yahoo! Finance: https://finance.yahoo.com/
  
  
 ## Data Application <a id="6"></a> <br>
-I used Plotly Dash as the python framework to create the interactive web application. The data application itself is hosted by AWS Elastic Beanstalk.
+I used Plotly Dash as the python framework to create the interactive web application. The data application itself is hosted by AWS Elastic Beanstalk. The application script and its requirements can be found in the 'deployment' folder.
 ### Network plots of acquisitions and mergers for the Big Four <a id="7"></a> <br>
 Used [NetworkX](https://networkx.org/) Python library in to develop the network plot. 
 <div>
