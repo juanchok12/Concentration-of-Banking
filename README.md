@@ -2,7 +2,10 @@
 
 
 
-https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/280c7270-717e-4f14-aa98-d69b4feb1a07
+
+https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/cde51fa1-443b-4252-a060-971be95625b4
+
+
 
 
 
