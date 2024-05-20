@@ -32,7 +32,7 @@ The goal is to quantitfy the concentration/decentralization/equilibrium of banki
 
 Additionally, we can observe the acquisition & merging activies by the Big Four to understand the state of banking in the U.S.
 
-The *concentration of banking* is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield enormous power over production, investment, and commerce. It subordinates the separated regional economies of a society into a singularity. 
+The *concentration of banking* is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield enormous power over production, investment, and commerce.
 
 **Research questions**:
 * What is the current market share of banking in the U.S. as measured by the share of consolidated assets? 
