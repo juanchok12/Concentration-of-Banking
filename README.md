@@ -23,14 +23,14 @@ https://plotly.com/examples/finance/
     c. [Phylogenetic Tree](#9)<br>
 
 ## Goal & Description <a id="0"></a>
-The goal is to quantitfy the concentration/decentralization/equilibrium of banking as a property/process/phenomena of in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging. We will focus on a juxtaposition between the Big Four banks and the rest of the large commercial banks in the U.S. The Big Four group includes:
+The goal is to quantitfy the concentration/decentralization/equilibrium of banking as a property/process/phenomena of in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging. I will focus on a juxtaposition between the Big Four banks and the rest of the large commercial banks in the U.S. The Big Four group includes:
 
 * Chase
 * Bank of America
 * Wells Fargo
 * Citibank
 
-Additionally, we can observe the acquisition & merging activies by the Big Four to understand the state of banking in the U.S.
+Additionally, I can observe the acquisition & merging activies by the Big Four to understand the state of banking in the U.S.
 
 The *concentration of banking* is the tendency of capital centralizing more and more around a few financial institutions, creating a financial network where a small number of banks and industrial monopolies wield enormous power over production, investment, and commerce.
 
@@ -42,7 +42,7 @@ The *concentration of banking* is the tendency of capital centralizing more and 
 * What do the trends in mergers and acquisitions of the biggest four commercial banks tell us about the monopolization/decentralization of banking in the U.S.?
 
 ## Hypothesis <a id="1"></a>
-Given a trend in the increase in the amount of consolidated assets held by the Big Four from the period 2003-2023, we can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time (in this study, we use consolidated assets as only one metric through which we can measure the centralization of banking). This hypothesis is furthered by the acquisition & merger behavior of the biggest four commercial banks over the last couple of decades. 
+Given a trend in the increase in the amount of consolidated assets held by the Big Four from the period 2003-2023, I can hypothesize a correlation between the increase in the monopolistic tendencies in finance capital over time (in this study, I use consolidated assets as only one metric through which I can measure the centralization of banking). This hypothesis is furthered by the acquisition & merger behavior of the biggest four commercial banks over the last couple of decades. 
 
 ## Data Sources <a id="2"></a>
 ### Data for consolidated assets<a id="3"></a> <br>
@@ -59,7 +59,7 @@ Link: https://www.federalreserve.gov/releases/lbr/
 
 The document *"automated_data_pipeline.py"* in the "script" folder automates the process of 
 *	Web scraping each quarterly link 
-*	Transforming the data from HTML to CSV documents so that we can manipulate the data.
+*	Transforming the data from HTML to CSV documents so that I can manipulate the data.
 *	Data cleaning: standardization of column headers and data, adding columns that calculate percentages. 
 *	Data wrangling: Setting master data frames, pivoting, concatenating dataframes that develop plot ready data frames.
 *	Uploads data frames into Github repository.
@@ -77,7 +77,7 @@ Three datasets were utilized to construct a network plot of the Big Four banks:
       * Successor Bank ID (RSSD).
       * Date of transformation (the date in which the merger/acquisition occurred). [Link](https://www.ffiec.gov/npw/FinancialReport/DataDownload)
  * Attributes.csv: Since the "Relationships.csv" file only has a numerical identifier as an ID for banks, it was necessary to cross reference/map the "Attributes.csv" file (which contains both the numerical identifier and its legal name) to obtain the legal name of the financial entities of interest. [Link]( https://www.ffiec.gov/npw/FinancialReport/DataDownload)
- * "history.csv". Each one of the Big Four banks has a history csv file that can be found by entering the RSSD number in the National Information Center search engine. "history.csv" displays the history of bank, uncluding mergers and acquistions. Since not all RSSD numbers are identifiable through the "Attributes.csv" file, we can rely on the "history.csv" to fill the gaps on the missing pieces. [Link](https://www.ffiec.gov/NPW)
+ * "history.csv". Each one of the Big Four banks has a history csv file that can be found by entering the RSSD number in the National Information Center search engine. "history.csv" displays the history of bank, uncluding mergers and acquistions. Since not all RSSD numbers are identifiable through the "Attributes.csv" file, I can rely on the "history.csv" to fill the gaps on the missing pieces. [Link](https://www.ffiec.gov/NPW)
 
 The Jupyter Notebook *network_MnA.ipynb* is file in the "script" folder that cleans, wrangles, and plots the data by carrying the following tasks:
 *	Adding missing values, such as the legal names of the entities by concatenating “Tranformations.csv”, “Attributes.csv”, “history.csv” files” to develop a data frame that has the necessary data points...
@@ -95,7 +95,7 @@ The Jupyter Notebook *network_MnA.ipynb* is file in the "script" folder that cle
 
 The data on the phylogenetic tree was compiled through corporate research (e.g. looking into business news) to find the historical merging & acquisition history of the Big Four banks. The reason I added phylogenetic tree in addition to the network plot of acquisitions and mergers is because I wanted to have a summarized version of the recent and most important historical activity in the merging & acquisition of the Big Four banks, that gives the additional data point of market value/cost of the merging/acquisition.  
 
-Aside from the phylogenetic tree we have the “Giga Banks Ownership on the Big Four” table and the “Historical Share Price” line plot covering the other half of the tab. Both items extract their data from Yahoo! Finance through the yfinance API. The “Giga Banks Ownership on the Big Four” table represents the share ownership of the biggest asset management firms in the U.S. (AKA the Giga Banks) on the Big Four banks, which demonstrate another layer on the concentration of banking. The data for the Giga Banks table was processes through the *'giga_banks.py'* file under the "script" folder repository. 
+Aside from the phylogenetic tree I have the “Giga Banks Ownership on the Big Four” table and the “Historical Share Price” line plot covering the other half of the tab. Both items extract their data from Yahoo! Finance through the yfinance API. The “Giga Banks Ownership on the Big Four” table represents the share ownership of the biggest asset management firms in the U.S. (AKA the Giga Banks) on the Big Four banks, which demonstrate another layer on the concentration of banking. The data for the Giga Banks table was processes through the *'giga_banks.py'* file under the "script" folder repository. 
 
 The "Historical Share Price" line plot is collected from the yfinance API through a bot in our data app script. The line plot displays the close stock price of each of the Big Four banks, updated daily.  
 
