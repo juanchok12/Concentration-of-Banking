@@ -22,6 +22,12 @@ https://plotly.com/examples/finance/
     b. [Metrics for the consolidated assets of the Big Four](#8)<br>
     c. [Phylogenetic Tree](#9)<br>
 
+
+
+https://github.com/user-attachments/assets/638c2b75-bede-427a-92b1-2f75878dd06f
+
+
+
 ## Goal & Description <a id="0"></a>
 The goal is to quantitfy the concentration/decentralization/equilibrium of banking as a property/process/phenomena in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging. I will focus on a juxtaposition between the Big Four banks and the rest of the large commercial banks in the U.S. The Big Four group includes:
 
