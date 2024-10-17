@@ -1,12 +1,6 @@
 # Concentration-of-Banking  💰 🏦
 
-
-
-
-https://github.com/juanchok12/Concentration-of-Banking/assets/116334702/cde51fa1-443b-4252-a060-971be95625b4
-
-
-
+https://github.com/user-attachments/assets/0a60a202-2e95-436f-a81c-3a4abf6ef133
 
 You can find the app in the Dash Explore Page:
 https://plotly.com/examples/finance/
