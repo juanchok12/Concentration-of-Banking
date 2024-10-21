@@ -19,7 +19,7 @@ https://plotly.com/examples/finance/
 
 
 ## Goal & Description <a id="0"></a>
-The goal is to quantitfy the concentration/decentralization/equilibrium of banking as a property/process/phenomena in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging. I will focus on a juxtaposition between the Big Four banks and the rest of the large commercial banks in the U.S. The Big Four group includes:
+The goal is to quantify the concentration/decentralization/equilibrium of banking as a property/process/phenomena in the economy from 2003-2023 by seeing trends in consolidated assets of large commercial banks and merging. I will focus on a juxtaposition between the Big Four banks and the rest of the large commercial banks in the U.S. The Big Four group includes:
 
 * Chase
 * Bank of America
